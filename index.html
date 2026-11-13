@@ -1464,6 +1464,48 @@
       text-decoration: underline;
     }
 
+    .footer-stats-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      padding-top: 14px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.08);
+    }
+    .footer-stat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(21, 21, 32, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 11px;
+      color: var(--text-dim);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+    .visitor-badge-img {
+      height: 20px;
+      border-radius: 3px;
+      vertical-align: middle;
+      box-shadow: 0 0 8px rgba(255, 85, 0, 0.25);
+      transition: transform 0.2s;
+    }
+    .visitor-badge-img:hover {
+      transform: scale(1.04);
+    }
+    .user-visit-pill {
+      color: var(--cyan);
+      font-weight: 700;
+      font-family: var(--font-mono);
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
     /* Toast Notification */
     .toast-msg {
       position: fixed;
@@ -1574,6 +1616,19 @@
       <div>
         <span id="ui-footer-author">Author: </span>
         <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer">NiktoBlox</a>
+      </div>
+      <!-- Visitor & Traffic Stats -->
+      <div class="footer-stats-row">
+        <div class="footer-stat-badge">
+          <span style="font-size: 13px;">🌐</span>
+          <span id="ui-footer-global-visits">Global Total Visits: </span>
+          <img id="global-visitor-badge" class="visitor-badge-img" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=VISITS&countColor=%23ff5500&labelColor=%23151520&style=flat-square" alt="Global Visits">
+        </div>
+        <div class="footer-stat-badge">
+          <span style="font-size: 13px;">👤</span>
+          <span id="ui-footer-user-visits">Your Visits: </span>
+          <span class="user-visit-pill"><span id="user-visit-count">1</span><span id="ui-footer-user-unit"> times</span></span>
+        </div>
       </div>
     </div>
   </footer>
@@ -1720,7 +1775,11 @@
           vel_desc: "Muzzle Velocity (High → Low)",
           mag_desc: "Magazine Capacity (High → Low)",
           start_ammo_desc: "Starting Ammo (High → Low)"
-        }
+        },
+        globalVisitsLabel: "Global Total Visits: ",
+        userVisitsLabel: "Your Visits: ",
+        userVisitsUnit: " times",
+        visitorBadgeLabel: "VISITS"
       },
       tc: {
         subtitle: "CQB HELL 武器軍械庫圖鑑與雙武器即時對比分析系統",
@@ -1782,7 +1841,11 @@
           vel_desc: "槍口初速 (高 → 低)",
           mag_desc: "彈匣容量 (高 → 低)",
           start_ammo_desc: "初始備彈 (高 → 低)"
-        }
+        },
+        globalVisitsLabel: "全站總造訪次數：",
+        userVisitsLabel: "您的造訪次數：",
+        userVisitsUnit: " 次",
+        visitorBadgeLabel: "總造訪量"
       },
       sc: {
         subtitle: "CQB HELL 武器军械库图鉴与双武器即时对比分析系统",
@@ -1844,7 +1907,11 @@
           vel_desc: "枪口初速 (高 → 低)",
           mag_desc: "弹匣容量 (高 → 低)",
           start_ammo_desc: "初始备弹 (高 → 低)"
-        }
+        },
+        globalVisitsLabel: "全站总访问次数：",
+        userVisitsLabel: "您的访问次数：",
+        userVisitsUnit: " 次",
+        visitorBadgeLabel: "总访问量"
       }
     };
 
@@ -1894,6 +1961,22 @@
       }
       if (document.getElementById('ui-compare-title')) {
         document.getElementById('ui-compare-title').textContent = t.compareTitle;
+      }
+
+      // Update footer visit counter labels
+      if (document.getElementById('ui-footer-global-visits')) {
+        document.getElementById('ui-footer-global-visits').textContent = t.globalVisitsLabel;
+      }
+      if (document.getElementById('ui-footer-user-visits')) {
+        document.getElementById('ui-footer-user-visits').textContent = t.userVisitsLabel;
+      }
+      if (document.getElementById('ui-footer-user-unit')) {
+        document.getElementById('ui-footer-user-unit').textContent = t.userVisitsUnit;
+      }
+      const badgeImg = document.getElementById('global-visitor-badge');
+      if (badgeImg && t.visitorBadgeLabel) {
+        const encodedLabel = encodeURIComponent(t.visitorBadgeLabel);
+        badgeImg.src = `https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=${encodedLabel}&countColor=%23ff5500&labelColor=%23151520&style=flat-square`;
       }
 
       // Update sort options dynamically
@@ -2935,6 +3018,15 @@
       } catch (e) {
         // Fallback to default
       }
+
+      // Record and display personal visits count
+      let userVisits = 1;
+      try {
+        userVisits = parseInt(localStorage.getItem('cqb_my_visits') || '0', 10) + 1;
+        localStorage.setItem('cqb_my_visits', userVisits);
+      } catch (e) {}
+      const userVisitEl = document.getElementById('user-visit-count');
+      if (userVisitEl) userVisitEl.textContent = userVisits;
 
       setLanguage(initialLang);
     });
