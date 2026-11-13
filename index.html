@@ -127,19 +127,7 @@
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 14px;
-      flex-wrap: wrap;
-    }
-
-    .header-visitor-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #15151e;
-      border: 1px solid var(--border);
-      padding: 4px 10px;
-      border-radius: 6px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+      gap: 16px;
     }
 
     /* Language Switcher */
@@ -1637,11 +1625,6 @@
       </div>
     </a>
     <div class="header-actions">
-      <!-- Visitor Counter Badge (Top Header) -->
-      <div class="header-visitor-badge" title="Global Total Visits">
-        <span style="font-size: 12px;">🌐</span>
-        <img id="global-visitor-badge" class="visitor-badge-img" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=VISITS&countColor=%23ff5500&labelColor=%23151520&style=flat-square" alt="Global Visits">
-      </div>
       <!-- Author Credit -->
       <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer" class="author-badge" title="NiktoBlox Roblox Profile">
         <span style="font-size: 14px;">🎖️</span>
@@ -1706,11 +1689,24 @@
 
   <!-- Footer -->
   <footer class="app-footer">
-    <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+    <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
       <div>CQB HELL // ARMORY DATABASE & WEAPON COMPENDIUM</div>
       <div>
         <span id="ui-footer-author">Author: </span>
         <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer">NiktoBlox</a>
+      </div>
+      <!-- Visitor & Traffic Stats (Footer) -->
+      <div class="footer-stats-row">
+        <div class="footer-stat-badge">
+          <span style="font-size: 13px;">🌐</span>
+          <span id="ui-footer-global-visits">Global Total Visits: </span>
+          <img id="global-visitor-badge" class="visitor-badge-img" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=VISITS&countColor=%23ff5500&labelColor=%23151520&style=flat-square" alt="Global Visits">
+        </div>
+        <div class="footer-stat-badge">
+          <span style="font-size: 13px;">👤</span>
+          <span id="ui-footer-user-visits">Your Visits: </span>
+          <span class="user-visit-pill"><span id="user-visit-count">1</span><span id="ui-footer-user-unit"> times</span></span>
+        </div>
       </div>
     </div>
   </footer>
@@ -2045,7 +2041,7 @@
         document.getElementById('ui-compare-title').textContent = t.compareTitle;
       }
 
-      // Update footer visit counter labels
+      // Update footer visit counter labels (DO NOT modify badgeImg.src so count never inflates on language switch!)
       if (document.getElementById('ui-footer-global-visits')) {
         document.getElementById('ui-footer-global-visits').textContent = t.globalVisitsLabel;
       }
@@ -2054,11 +2050,6 @@
       }
       if (document.getElementById('ui-footer-user-unit')) {
         document.getElementById('ui-footer-user-unit').textContent = t.userVisitsUnit;
-      }
-      const badgeImg = document.getElementById('global-visitor-badge');
-      if (badgeImg && t.visitorBadgeLabel) {
-        const encodedLabel = encodeURIComponent(t.visitorBadgeLabel);
-        badgeImg.src = `https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=${encodedLabel}&countColor=%23ff5500&labelColor=%23151520&style=flat-square`;
       }
 
       // Update sort options dynamically
@@ -3102,11 +3093,15 @@
         // Fallback to default
       }
 
-      // Record and display personal visits count
+      // Record and display personal visits count (session-guarded against refresh spam)
       let userVisits = 1;
       try {
-        userVisits = parseInt(localStorage.getItem('cqb_my_visits') || '0', 10) + 1;
-        localStorage.setItem('cqb_my_visits', userVisits);
+        userVisits = parseInt(localStorage.getItem('cqb_my_visits') || '0', 10);
+        if (!sessionStorage.getItem('cqb_session_active')) {
+          userVisits += 1;
+          localStorage.setItem('cqb_my_visits', userVisits);
+          sessionStorage.setItem('cqb_session_active', '1');
+        }
       } catch (e) {}
       const userVisitEl = document.getElementById('user-visit-count');
       if (userVisitEl) userVisitEl.textContent = userVisits;
