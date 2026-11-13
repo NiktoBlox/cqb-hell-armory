@@ -115,8 +115,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -183,7 +183,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -208,7 +208,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -249,7 +249,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -290,7 +290,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -331,7 +331,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -372,7 +372,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -388,7 +388,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -413,7 +413,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -454,7 +454,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -470,7 +470,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -495,7 +495,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -678,14 +678,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/3/34/FM-58.webp/revision/latest/scale-to-width-down/239?cb=20260524222237",
       "stats": {
         "weapon_class": {
-          "en": "Battle rifles & DMR",
-          "tc": "Battle rifles & DMR",
-          "sc": "Battle rifles & DMR"
+          "en": "Battle Rifles & DMR",
+          "tc": "戰鬥步槍",
+          "sc": "战斗步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic - semi automatic",
@@ -694,8 +694,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -721,9 +721,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Fabrique Militaire",
         "availability": ""
@@ -759,17 +759,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -777,15 +777,15 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very high",
-              "tc": "Very high",
-              "sc": "Very high"
+              "en": "Very High",
+              "tc": "非常高",
+              "sc": "非常高"
             },
             "body": {
               "en": "Mid",
@@ -800,17 +800,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -818,7 +818,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -841,17 +841,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -859,7 +859,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -882,17 +882,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1039,13 +1039,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Semi-Auto Rifle",
-          "tc": "Semi-Auto Rifle",
-          "sc": "Semi-Auto Rifle"
+          "tc": "半自動步槍",
+          "sc": "半自动步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -1081,9 +1081,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -1119,17 +1119,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1137,7 +1137,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -1160,17 +1160,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1178,7 +1178,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -1201,17 +1201,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1219,7 +1219,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -1242,17 +1242,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1260,7 +1260,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -1283,17 +1283,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1301,7 +1301,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -1324,17 +1324,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1445,13 +1445,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Rifle",
-          "tc": "Rifle",
-          "sc": "Rifle"
+          "tc": "步槍",
+          "sc": "步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Lever-Action",
@@ -1460,8 +1460,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -1487,9 +1487,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -1525,17 +1525,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1543,7 +1543,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -1566,17 +1566,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1584,7 +1584,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -1607,17 +1607,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1625,7 +1625,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -1648,17 +1648,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1771,8 +1771,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -1781,8 +1781,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -1808,9 +1808,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -1846,17 +1846,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -1984,8 +1984,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -2021,9 +2021,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -2052,7 +2052,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -2077,7 +2077,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -2118,7 +2118,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -2159,7 +2159,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -2200,7 +2200,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -2241,7 +2241,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -2257,7 +2257,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -2282,7 +2282,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -2323,7 +2323,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -2339,7 +2339,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -2364,7 +2364,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -2544,8 +2544,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -2554,8 +2554,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -2581,9 +2581,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -2607,12 +2607,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Very Low\n-\nHigh",
+              "en": "Very Low - High",
               "tc": "極低 - 高",
               "sc": "极低 - 高"
             }
@@ -2637,7 +2637,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -2653,7 +2653,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -2678,7 +2678,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -2719,7 +2719,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -2760,7 +2760,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -2801,7 +2801,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -2812,12 +2812,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Very Low\n-\nHigh",
+              "en": "Very Low - High",
               "tc": "極低 - 高",
               "sc": "极低 - 高"
             }
@@ -2842,7 +2842,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -2883,7 +2883,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -2894,12 +2894,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Very Low\n-\nHigh",
+              "en": "Very Low - High",
               "tc": "極低 - 高",
               "sc": "极低 - 高"
             }
@@ -2924,7 +2924,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -3096,13 +3096,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Designated Battle Rifle",
-          "tc": "Designated Battle Rifle",
-          "sc": "Designated Battle Rifle"
+          "tc": "特製戰鬥步槍",
+          "sc": "特制战斗步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Burst-Semi-Automatic",
@@ -3111,8 +3111,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -3138,9 +3138,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -3176,17 +3176,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3194,7 +3194,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -3217,17 +3217,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3235,7 +3235,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -3251,24 +3251,24 @@ var CQB_DATA = {
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Mid-High",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3276,7 +3276,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -3299,17 +3299,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3429,13 +3429,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Semi-Auto Rifle",
-          "tc": "Semi-Auto Rifle",
-          "sc": "Semi-Auto Rifle"
+          "tc": "半自動步槍",
+          "sc": "半自动步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -3444,8 +3444,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -3471,9 +3471,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -3509,17 +3509,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3527,7 +3527,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -3550,17 +3550,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3568,7 +3568,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -3591,17 +3591,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3609,7 +3609,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -3632,17 +3632,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3753,13 +3753,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Designated Battle Rifle",
-          "tc": "Designated Battle Rifle",
-          "sc": "Designated Battle Rifle"
+          "tc": "特製戰鬥步槍",
+          "sc": "特制战斗步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -3795,9 +3795,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -3833,17 +3833,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3851,7 +3851,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -3874,17 +3874,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3892,7 +3892,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -3915,17 +3915,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -3933,7 +3933,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -3956,17 +3956,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4094,8 +4094,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic - semi automatic",
@@ -4104,8 +4104,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -4131,9 +4131,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -4169,17 +4169,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4187,7 +4187,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -4210,17 +4210,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4228,7 +4228,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -4251,17 +4251,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4269,7 +4269,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -4292,17 +4292,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4410,13 +4410,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "DMR",
-          "tc": "DMR",
-          "sc": "DMR"
+          "tc": "精確射手步槍",
+          "sc": "精确射手步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -4425,8 +4425,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -4452,9 +4452,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Fabrique Militaire",
         "availability": ""
@@ -4490,17 +4490,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4508,7 +4508,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -4531,17 +4531,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4549,7 +4549,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -4572,17 +4572,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4590,7 +4590,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -4613,17 +4613,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4745,14 +4745,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/8/8f/SAR.webp/revision/latest/scale-to-width-down/239?cb=20260524195032",
       "stats": {
         "weapon_class": {
-          "en": "Battle rifles & DMR",
-          "tc": "Battle rifles & DMR",
-          "sc": "Battle rifles & DMR"
+          "en": "Battle Rifles & DMR",
+          "tc": "戰鬥步槍",
+          "sc": "战斗步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic - semi automatic",
@@ -4761,8 +4761,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -4788,9 +4788,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Fabrique Militaire",
         "availability": ""
@@ -4826,17 +4826,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4844,7 +4844,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -4867,17 +4867,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4885,7 +4885,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -4908,17 +4908,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -4926,7 +4926,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -4949,17 +4949,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5079,13 +5079,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Designated Marksman Rifle",
-          "tc": "Designated Marksman Rifle",
-          "sc": "Designated Marksman Rifle"
+          "tc": "精確射手步槍",
+          "sc": "精确射手步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic - Semi automatic",
@@ -5094,8 +5094,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -5121,9 +5121,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -5159,17 +5159,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5177,7 +5177,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -5200,17 +5200,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5218,7 +5218,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -5241,17 +5241,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5259,7 +5259,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -5282,17 +5282,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5400,13 +5400,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Battle Rifles & DMR",
-          "tc": "Battle Rifles & DMR",
-          "sc": "Battle Rifles & DMR"
+          "tc": "戰鬥步槍",
+          "sc": "战斗步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi",
@@ -5415,8 +5415,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -5442,9 +5442,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -5498,7 +5498,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -5521,17 +5521,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5539,7 +5539,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -5555,24 +5555,24 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Lethal - Very high",
-              "tc": "致命 - Very high",
-              "sc": "致命 - Very high"
+              "en": "Lethal - Very High",
+              "tc": "致命 - 非常高",
+              "sc": "致命 - 非常高"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5580,7 +5580,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -5603,17 +5603,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5714,8 +5714,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi",
@@ -5751,9 +5751,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -5789,17 +5789,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5807,7 +5807,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -5823,24 +5823,24 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low-Low",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5848,7 +5848,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -5864,24 +5864,24 @@ var CQB_DATA = {
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Mid-High",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -5889,7 +5889,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -5912,17 +5912,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6006,13 +6006,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Rocket Launcher",
-          "tc": "Rocket Launcher",
-          "sc": "Rocket Launcher"
+          "tc": "火箭發射器",
+          "sc": "火箭发射器"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Single-shot",
@@ -6048,9 +6048,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None",
         "availability": ""
@@ -6069,34 +6069,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6104,40 +6104,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6145,40 +6145,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6186,40 +6186,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6306,13 +6306,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "LMG",
-          "tc": "LMG",
-          "sc": "LMG"
+          "tc": "輕機槍",
+          "sc": "轻机枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -6321,8 +6321,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -6348,9 +6348,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -6386,17 +6386,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6404,7 +6404,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -6427,17 +6427,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6445,7 +6445,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -6468,17 +6468,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6486,7 +6486,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -6509,17 +6509,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6639,13 +6639,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Rocket Launcher",
-          "tc": "Rocket Launcher",
-          "sc": "Rocket Launcher"
+          "tc": "火箭發射器",
+          "sc": "火箭发射器"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Multi-Barrel / Rocket",
@@ -6681,9 +6681,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -6702,34 +6702,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6816,13 +6816,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Laser Rifle",
-          "tc": "Laser Rifle",
-          "sc": "Laser Rifle"
+          "tc": "雷射步槍",
+          "sc": "激光步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Continuous/Auto",
@@ -6831,8 +6831,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -6858,9 +6858,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -6896,17 +6896,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6914,7 +6914,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -6937,17 +6937,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6955,7 +6955,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -6978,17 +6978,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -6996,7 +6996,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -7019,17 +7019,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -7140,13 +7140,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Light Machine Gun (LMG)",
-          "tc": "Light Machine Gun (LMG)",
-          "sc": "Light Machine Gun (LMG)"
+          "tc": "輕機槍",
+          "sc": "轻机枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -7182,9 +7182,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -7220,17 +7220,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -7238,7 +7238,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -7261,17 +7261,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -7279,7 +7279,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -7302,17 +7302,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -7320,7 +7320,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -7343,17 +7343,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -7440,13 +7440,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Rocket Launcher",
-          "tc": "Rocket Launcher",
-          "sc": "Rocket Launcher"
+          "tc": "火箭發射器",
+          "sc": "火箭发射器"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -7482,9 +7482,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -7617,13 +7617,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Light Machine Gun (LMG)",
-          "tc": "Light Machine Gun (LMG)",
-          "sc": "Light Machine Gun (LMG)"
+          "tc": "輕機槍",
+          "sc": "轻机枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -7659,9 +7659,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -7697,17 +7697,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -7811,8 +7811,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -7849,8 +7849,8 @@ var CQB_DATA = {
         },
         "jam_chance": {
           "en": "Never",
-          "tc": "Never",
-          "sc": "Never"
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -7874,7 +7874,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -7904,7 +7904,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -7945,7 +7945,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -7956,12 +7956,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -7986,7 +7986,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -7997,7 +7997,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -8027,7 +8027,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -8068,7 +8068,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -8079,7 +8079,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -8109,7 +8109,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -8150,7 +8150,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -8161,7 +8161,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -8191,7 +8191,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -8356,8 +8356,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -8419,7 +8419,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -8449,7 +8449,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -8490,7 +8490,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -8506,7 +8506,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -8531,7 +8531,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -8572,7 +8572,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -8613,7 +8613,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -8624,7 +8624,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -8654,7 +8654,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -8695,7 +8695,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -8706,7 +8706,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -8736,7 +8736,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -8900,8 +8900,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -8963,7 +8963,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -8993,7 +8993,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -9034,7 +9034,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -9075,7 +9075,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -9116,7 +9116,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -9157,7 +9157,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -9168,7 +9168,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -9198,7 +9198,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -9239,7 +9239,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -9250,7 +9250,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -9280,7 +9280,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -9481,8 +9481,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Burst/Semi",
@@ -9574,7 +9574,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -9615,7 +9615,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -9626,7 +9626,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -9656,7 +9656,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -9667,12 +9667,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -9697,7 +9697,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -9738,7 +9738,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -9779,7 +9779,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -9820,7 +9820,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -9861,7 +9861,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -10001,8 +10001,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -10059,7 +10059,7 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
@@ -10094,7 +10094,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -10135,7 +10135,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -10176,7 +10176,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -10187,7 +10187,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -10217,7 +10217,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -10258,13 +10258,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
@@ -10299,7 +10299,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -10340,13 +10340,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
@@ -10381,7 +10381,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -10569,8 +10569,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -10627,12 +10627,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -10662,7 +10662,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -10703,7 +10703,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -10744,7 +10744,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -10785,7 +10785,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -10826,18 +10826,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -10867,7 +10867,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -10908,18 +10908,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -10949,7 +10949,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -11114,8 +11114,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -11177,7 +11177,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -11207,7 +11207,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -11248,7 +11248,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -11264,7 +11264,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -11289,7 +11289,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -11305,7 +11305,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -11330,7 +11330,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -11371,7 +11371,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -11382,7 +11382,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -11412,7 +11412,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -11453,7 +11453,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -11464,7 +11464,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -11494,7 +11494,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -11695,8 +11695,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -11753,12 +11753,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -11788,7 +11788,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -11829,7 +11829,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -11870,7 +11870,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -11911,7 +11911,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -11952,18 +11952,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -11993,7 +11993,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -12034,18 +12034,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -12075,7 +12075,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -12267,8 +12267,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -12325,7 +12325,7 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -12360,13 +12360,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -12401,7 +12401,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -12442,7 +12442,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -12483,7 +12483,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -12524,13 +12524,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -12565,7 +12565,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -12606,13 +12606,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -12647,7 +12647,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -12848,8 +12848,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -12885,9 +12885,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -12911,12 +12911,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -12941,7 +12941,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -12982,7 +12982,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -13023,7 +13023,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -13034,12 +13034,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -13064,7 +13064,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -13105,7 +13105,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -13116,12 +13116,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -13146,7 +13146,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -13187,7 +13187,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -13198,12 +13198,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -13228,7 +13228,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -13405,8 +13405,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -13468,7 +13468,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -13498,7 +13498,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -13539,7 +13539,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -13580,7 +13580,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -13591,7 +13591,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -13621,7 +13621,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -13662,7 +13662,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -13673,7 +13673,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -13703,7 +13703,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -13744,7 +13744,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -13755,7 +13755,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -13785,7 +13785,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -13986,8 +13986,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -14044,12 +14044,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -14079,7 +14079,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -14120,7 +14120,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -14136,7 +14136,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -14161,7 +14161,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -14177,7 +14177,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -14202,7 +14202,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -14243,18 +14243,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -14284,7 +14284,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -14325,18 +14325,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -14366,7 +14366,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -14555,8 +14555,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi/Burst",
@@ -14618,7 +14618,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -14648,7 +14648,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -14689,7 +14689,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -14730,7 +14730,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -14771,7 +14771,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -14812,7 +14812,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -14823,7 +14823,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -14853,7 +14853,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -14894,7 +14894,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -14905,7 +14905,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -14935,7 +14935,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -15136,8 +15136,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -15194,12 +15194,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -15229,7 +15229,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -15270,7 +15270,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -15311,7 +15311,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -15327,7 +15327,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -15352,7 +15352,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -15393,18 +15393,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -15434,7 +15434,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -15475,18 +15475,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -15516,7 +15516,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -15717,8 +15717,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -15775,12 +15775,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -15810,7 +15810,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -15851,7 +15851,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -15892,7 +15892,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -15933,7 +15933,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -15974,18 +15974,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -16015,7 +16015,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -16056,18 +16056,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -16097,7 +16097,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -16298,8 +16298,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -16366,7 +16366,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nMid",
+              "en": "Very Low - Mid",
               "tc": "極低 - 中",
               "sc": "极低 - 中"
             }
@@ -16391,7 +16391,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -16432,7 +16432,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -16473,7 +16473,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -16489,7 +16489,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -16514,7 +16514,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -16555,7 +16555,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -16571,7 +16571,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nMid",
+              "en": "Very Low - Mid",
               "tc": "極低 - 中",
               "sc": "极低 - 中"
             }
@@ -16596,7 +16596,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -16637,7 +16637,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -16653,7 +16653,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nMid",
+              "en": "Very Low - Mid",
               "tc": "極低 - 中",
               "sc": "极低 - 中"
             }
@@ -16678,7 +16678,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -16879,8 +16879,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -16942,7 +16942,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -16972,7 +16972,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -17013,7 +17013,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -17054,7 +17054,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -17070,7 +17070,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -17095,7 +17095,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -17136,7 +17136,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -17147,7 +17147,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -17177,7 +17177,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -17218,7 +17218,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -17229,7 +17229,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -17259,7 +17259,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -17460,8 +17460,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -17523,7 +17523,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -17553,7 +17553,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -17594,7 +17594,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -17635,7 +17635,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -17651,7 +17651,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -17676,7 +17676,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -17717,7 +17717,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -17728,7 +17728,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -17758,7 +17758,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -17799,7 +17799,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -17810,7 +17810,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -17840,7 +17840,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -18041,8 +18041,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -18099,12 +18099,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -18134,7 +18134,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -18175,7 +18175,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -18216,7 +18216,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -18232,7 +18232,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -18257,7 +18257,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -18298,18 +18298,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -18339,7 +18339,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -18380,18 +18380,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -18421,7 +18421,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -18622,8 +18622,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -18680,17 +18680,17 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -18715,7 +18715,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -18756,7 +18756,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -18784,7 +18784,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -18797,7 +18797,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -18813,7 +18813,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -18825,7 +18825,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -18838,7 +18838,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -18879,23 +18879,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -18920,7 +18920,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -18961,23 +18961,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -19002,7 +19002,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -19167,8 +19167,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -19235,7 +19235,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -19260,7 +19260,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -19301,7 +19301,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -19342,7 +19342,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -19358,7 +19358,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -19383,7 +19383,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -19424,7 +19424,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -19440,7 +19440,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -19465,7 +19465,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -19506,7 +19506,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -19522,7 +19522,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -19547,7 +19547,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -19748,8 +19748,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -19811,7 +19811,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -19841,7 +19841,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -19882,7 +19882,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -19898,7 +19898,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Very Low\n-\nLow",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
@@ -19923,7 +19923,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -19939,7 +19939,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -19964,7 +19964,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -20005,7 +20005,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -20016,7 +20016,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -20046,7 +20046,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -20087,7 +20087,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -20098,7 +20098,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -20128,7 +20128,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -20305,8 +20305,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -20363,7 +20363,7 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -20398,7 +20398,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -20409,7 +20409,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -20439,7 +20439,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -20450,7 +20450,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -20480,7 +20480,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -20496,7 +20496,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -20521,7 +20521,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -20562,13 +20562,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -20603,7 +20603,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -20644,13 +20644,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -20685,7 +20685,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -20850,8 +20850,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -20908,7 +20908,7 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -20943,7 +20943,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -20954,7 +20954,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -20984,7 +20984,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -20995,7 +20995,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -21025,7 +21025,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -21041,7 +21041,7 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -21066,7 +21066,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -21107,13 +21107,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -21148,7 +21148,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -21189,13 +21189,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -21230,7 +21230,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -21419,8 +21419,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -21456,9 +21456,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -21477,7 +21477,7 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -21512,7 +21512,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -21553,7 +21553,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -21594,7 +21594,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -21635,7 +21635,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -21676,13 +21676,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -21717,7 +21717,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -21758,13 +21758,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -21799,7 +21799,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -22003,8 +22003,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -22066,7 +22066,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -22096,7 +22096,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -22137,7 +22137,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -22178,7 +22178,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -22189,12 +22189,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
             "limbs": {
-              "en": "Low\n-\nMid",
+              "en": "Low - Mid",
               "tc": "低 - 中",
               "sc": "低 - 中"
             }
@@ -22219,7 +22219,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -22260,7 +22260,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -22271,7 +22271,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -22301,7 +22301,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -22342,7 +22342,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -22353,7 +22353,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -22383,7 +22383,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -22560,8 +22560,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -22597,9 +22597,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -22635,17 +22635,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -22653,7 +22653,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -22676,17 +22676,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -22694,7 +22694,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -22717,17 +22717,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -22735,7 +22735,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -22758,17 +22758,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -22884,8 +22884,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -22894,8 +22894,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "2 Walls",
-          "tc": "2 Walls",
-          "sc": "2 Walls"
+          "tc": "2面牆",
+          "sc": "2面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -22921,9 +22921,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -22977,7 +22977,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -23018,7 +23018,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -23059,7 +23059,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -23100,7 +23100,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -23123,17 +23123,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -23229,13 +23229,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Rifle",
-          "tc": "Rifle",
-          "sc": "Rifle"
+          "tc": "步槍",
+          "sc": "步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -23244,8 +23244,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "800 M/S",
@@ -23271,9 +23271,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -23292,31 +23292,31 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Armor lethal",
-              "tc": "Armor lethal",
-              "sc": "Armor lethal"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor lethal",
-              "tc": "Armor lethal",
-              "sc": "Armor lethal"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor lethal",
-              "tc": "Armor lethal",
-              "sc": "Armor lethal"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor lethal",
-              "tc": "Armor lethal",
-              "sc": "Armor lethal"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor lethal",
-              "tc": "Armor lethal",
-              "sc": "Armor lethal"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
               "en": "Lethal",
@@ -23327,7 +23327,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -23368,7 +23368,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -23409,7 +23409,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -23450,7 +23450,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -23582,13 +23582,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Muzzle-Loaded Long Gun",
-          "tc": "Muzzle-Loaded Long Gun",
-          "sc": "Muzzle-Loaded Long Gun"
+          "tc": "前膛裝填長槍",
+          "sc": "前膛装填长枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -23624,9 +23624,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -23680,7 +23680,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -23721,7 +23721,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -23762,7 +23762,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -23803,7 +23803,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -23844,7 +23844,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -23964,13 +23964,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Anti-Material Rifle",
-          "tc": "Anti-Material Rifle",
-          "sc": "Anti-Material Rifle"
+          "tc": "反器材步槍",
+          "sc": "反器材步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-automatic",
@@ -23979,8 +23979,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "2 Walls",
-          "tc": "2 Walls",
-          "sc": "2 Walls"
+          "tc": "2面牆",
+          "sc": "2面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -24006,9 +24006,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -24027,241 +24027,241 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           },
           "armored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "limbs": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             }
           }
         }
@@ -24379,13 +24379,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Anti-Material Rifle",
-          "tc": "Anti-Material Rifle",
-          "sc": "Anti-Material Rifle"
+          "tc": "反器材步槍",
+          "sc": "反器材步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -24394,8 +24394,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "2 Walls",
-          "tc": "2 Walls",
-          "sc": "2 Walls"
+          "tc": "2面牆",
+          "sc": "2面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -24421,9 +24421,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -24477,7 +24477,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -24518,15 +24518,15 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Armor-Lethal",
-              "tc": "Armor - 致命",
-              "sc": "Armor - 致命"
+              "en": "Armor Lethal",
+              "tc": "穿甲級致命",
+              "sc": "穿甲级致命"
             },
             "body": {
               "en": "Lethal",
@@ -24559,7 +24559,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -24600,7 +24600,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -24756,13 +24756,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Anti-Material Rifle",
-          "tc": "Anti-Material Rifle",
-          "sc": "Anti-Material Rifle"
+          "tc": "反器材步槍",
+          "sc": "反器材步枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic - Semi Automatic",
@@ -24770,9 +24770,9 @@ var CQB_DATA = {
           "sc": "Automatic - Semi Automatic"
         },
         "wallbang": {
-          "en": "2 Wall",
-          "tc": "2 Wall",
-          "sc": "2 Wall"
+          "en": "2 Walls",
+          "tc": "2面牆",
+          "sc": "2面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -24798,9 +24798,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -24836,17 +24836,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -24854,7 +24854,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -24877,17 +24877,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -24895,7 +24895,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -24918,17 +24918,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -24936,7 +24936,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -24959,17 +24959,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25085,8 +25085,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -25122,9 +25122,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -25160,17 +25160,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25280,14 +25280,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/4/46/FME.webp/revision/latest/scale-to-width-down/239?cb=20260524221933",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -25323,9 +25323,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -25344,12 +25344,12 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very high - Lethal",
-              "tc": "Very high - 致命",
-              "sc": "Very high - 致命"
+              "en": "Very High - Lethal",
+              "tc": "非常高 - 致命",
+              "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid-High",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -25361,17 +25361,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25379,7 +25379,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -25402,17 +25402,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25420,7 +25420,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -25443,17 +25443,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25461,7 +25461,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -25477,24 +25477,24 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "Very Low-Low",
+              "en": "Very Low - Low",
               "tc": "極低 - 低",
               "sc": "极低 - 低"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25617,13 +25617,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Handgun",
-          "tc": "Handgun",
-          "sc": "Handgun"
+          "tc": "手槍",
+          "sc": "手枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "automatic -semi",
@@ -25659,9 +25659,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -25697,17 +25697,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25715,7 +25715,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -25738,17 +25738,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25756,7 +25756,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -25779,17 +25779,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25797,7 +25797,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -25820,17 +25820,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -25925,14 +25925,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/1/1f/MPD-57.webp/revision/latest/scale-to-width-down/239?cb=20260524213502",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -25968,9 +25968,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Modular Precision Defense",
         "availability": ""
@@ -26006,17 +26006,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26024,7 +26024,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -26047,17 +26047,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26065,7 +26065,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -26088,17 +26088,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26106,7 +26106,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -26129,17 +26129,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26249,14 +26249,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/2/20/MPD45.webp/revision/latest/scale-to-width-down/239?cb=20260524213130",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -26292,9 +26292,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Modular Precision Defense",
         "availability": ""
@@ -26330,17 +26330,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26348,40 +26348,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26389,7 +26389,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -26412,17 +26412,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26430,7 +26430,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -26453,17 +26453,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26585,14 +26585,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/c/cc/MPD4SD.webp/revision/latest/scale-to-width-down/239?cb=20260524212752",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -26628,9 +26628,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Modular Precision Defense",
         "availability": ""
@@ -26666,17 +26666,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26684,7 +26684,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -26707,17 +26707,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26725,7 +26725,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -26748,17 +26748,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26766,7 +26766,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -26789,17 +26789,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26897,14 +26897,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/b/bd/PK-41.webp/revision/latest/scale-to-width-down/239?cb=20260524203913",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -26940,9 +26940,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -26978,17 +26978,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -26996,7 +26996,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -27019,17 +27019,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27037,7 +27037,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -27060,17 +27060,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27078,7 +27078,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -27101,17 +27101,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27209,14 +27209,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/1/1e/SAR_PARA.webp/revision/latest/scale-to-width-down/239?cb=20260524194859",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -27252,9 +27252,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Fabrique Militaire",
         "availability": ""
@@ -27290,17 +27290,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27308,7 +27308,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -27331,17 +27331,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27349,7 +27349,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -27372,17 +27372,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27390,7 +27390,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -27413,17 +27413,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27533,14 +27533,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/8/88/Spectre.webp/revision/latest/scale-to-width-down/239?cb=20260524192615",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -27576,9 +27576,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -27614,17 +27614,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27632,40 +27632,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27673,7 +27673,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -27696,17 +27696,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27714,7 +27714,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -27737,17 +27737,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27857,14 +27857,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/7/77/Uzi.webp/revision/latest/scale-to-width-down/239?cb=20260524192409",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -27900,9 +27900,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -27938,17 +27938,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27956,7 +27956,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -27979,17 +27979,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -27997,7 +27997,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -28020,17 +28020,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -28038,7 +28038,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -28061,17 +28061,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -28181,14 +28181,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/e/ec/V-17.webp/revision/latest/scale-to-width-down/239?cb=20260524190916",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -28224,9 +28224,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -28262,17 +28262,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -28280,7 +28280,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -28303,17 +28303,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -28321,7 +28321,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -28344,17 +28344,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -28362,7 +28362,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -28385,17 +28385,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -28523,8 +28523,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Manual (Flintlock)",
@@ -28560,9 +28560,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -28581,17 +28581,17 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             }
@@ -28616,23 +28616,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nArmor Lethal",
+              "en": "Very High - Armor Lethal",
               "tc": "非常高 - 穿甲級致命",
               "sc": "非常高 - 穿甲级致命"
             },
             "body": {
-              "en": "Very High\n-\nArmor Lethal",
+              "en": "Very High - Armor Lethal",
               "tc": "非常高 - 穿甲級致命",
               "sc": "非常高 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Very High\n-\nArmor Lethal",
+              "en": "Very High - Armor Lethal",
               "tc": "非常高 - 穿甲級致命",
               "sc": "非常高 - 穿甲级致命"
             }
@@ -28657,23 +28657,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             }
@@ -28698,23 +28698,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             }
@@ -28739,7 +28739,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -28780,23 +28780,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             }
@@ -28821,7 +28821,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -28862,23 +28862,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             }
@@ -28903,7 +28903,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -29056,8 +29056,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -29093,9 +29093,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -29119,7 +29119,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -29149,7 +29149,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -29190,7 +29190,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -29231,7 +29231,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -29242,7 +29242,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
@@ -29272,7 +29272,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -29313,7 +29313,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -29324,7 +29324,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -29354,7 +29354,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -29395,7 +29395,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -29406,7 +29406,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -29436,7 +29436,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -29637,8 +29637,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -29674,9 +29674,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -29700,7 +29700,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -29730,7 +29730,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -29741,12 +29741,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Very Low\n-\nHigh",
+              "en": "Very Low - High",
               "tc": "極低 - 高",
               "sc": "极低 - 高"
             }
@@ -29771,7 +29771,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -29787,7 +29787,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -29812,7 +29812,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -29828,7 +29828,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nLethal",
+              "en": "Mid - Lethal",
               "tc": "中 - 致命",
               "sc": "中 - 致命"
             }
@@ -29853,7 +29853,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -29894,7 +29894,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -29905,7 +29905,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -29935,7 +29935,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -29976,7 +29976,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -29987,7 +29987,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
@@ -30017,7 +30017,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -30203,8 +30203,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -30240,9 +30240,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -30271,7 +30271,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -30296,7 +30296,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -30307,12 +30307,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -30337,7 +30337,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -30378,7 +30378,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -30389,7 +30389,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
@@ -30419,7 +30419,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -30460,7 +30460,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -30476,7 +30476,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -30501,7 +30501,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -30542,7 +30542,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -30558,7 +30558,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -30583,7 +30583,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -30759,9 +30759,9 @@ var CQB_DATA = {
           "sc": "霰弹枪"
         },
         "weapon_slot": {
-          "en": "N/A",
-          "tc": "無",
-          "sc": "无"
+          "en": "Tertiary",
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -30797,9 +30797,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -30818,17 +30818,17 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -30853,18 +30853,18 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
@@ -30894,7 +30894,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -30905,12 +30905,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -30935,7 +30935,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -30951,7 +30951,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -30976,7 +30976,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -31017,23 +31017,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -31058,7 +31058,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -31099,23 +31099,23 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "body": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -31140,7 +31140,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -31341,8 +31341,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -31378,9 +31378,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -31409,7 +31409,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             }
@@ -31434,7 +31434,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -31445,12 +31445,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Low\n-\nHigh",
+              "en": "Low - High",
               "tc": "低 - 高",
               "sc": "低 - 高"
             },
             "limbs": {
-              "en": "Low\n-\nHigh",
+              "en": "Low - High",
               "tc": "低 - 高",
               "sc": "低 - 高"
             }
@@ -31475,7 +31475,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -31491,7 +31491,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -31516,7 +31516,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -31532,7 +31532,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -31557,7 +31557,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -31598,7 +31598,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -31614,7 +31614,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             }
@@ -31639,7 +31639,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -31680,7 +31680,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -31696,7 +31696,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             }
@@ -31721,7 +31721,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -31861,8 +31861,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -31898,9 +31898,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -31924,12 +31924,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -31954,7 +31954,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -31965,7 +31965,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -31995,7 +31995,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -32011,7 +32011,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -32036,7 +32036,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -32077,7 +32077,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -32118,7 +32118,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -32129,12 +32129,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -32159,7 +32159,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -32200,7 +32200,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -32211,12 +32211,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -32241,7 +32241,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -32418,8 +32418,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -32455,9 +32455,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -32511,7 +32511,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -32522,12 +32522,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Low\n-\nHigh",
+              "en": "Low - High",
               "tc": "低 - 高",
               "sc": "低 - 高"
             },
             "limbs": {
-              "en": "Low\n-\nHigh",
+              "en": "Low - High",
               "tc": "低 - 高",
               "sc": "低 - 高"
             }
@@ -32552,7 +32552,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -32593,7 +32593,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -32604,12 +32604,12 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -32634,7 +32634,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -32675,7 +32675,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -32716,7 +32716,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -32757,7 +32757,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -32798,7 +32798,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -32938,8 +32938,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Pump Action",
@@ -32975,9 +32975,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -33031,7 +33031,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -33042,12 +33042,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -33072,7 +33072,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -33113,7 +33113,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -33124,12 +33124,12 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
             "limbs": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             }
@@ -33154,7 +33154,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -33195,7 +33195,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -33236,7 +33236,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -33277,7 +33277,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -33318,7 +33318,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -33458,8 +33458,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -33495,9 +33495,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -33551,7 +33551,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -33562,12 +33562,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -33592,7 +33592,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -33633,7 +33633,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -33644,7 +33644,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
@@ -33674,7 +33674,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -33715,7 +33715,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -33756,7 +33756,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -33797,7 +33797,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -33838,7 +33838,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -34003,8 +34003,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -34040,9 +34040,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -34096,7 +34096,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -34107,12 +34107,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -34137,7 +34137,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -34178,7 +34178,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -34189,7 +34189,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
@@ -34219,7 +34219,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -34260,7 +34260,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -34301,7 +34301,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -34342,7 +34342,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -34383,7 +34383,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -34572,8 +34572,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -34609,9 +34609,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -34665,7 +34665,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -34681,7 +34681,7 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -34706,7 +34706,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -34722,7 +34722,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             }
@@ -34747,7 +34747,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -34758,7 +34758,7 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Lethal\n-\nArmor Lethal",
+              "en": "Lethal - Armor Lethal",
               "tc": "致命 - 穿甲級致命",
               "sc": "致命 - 穿甲级致命"
             },
@@ -34788,7 +34788,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -34829,7 +34829,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -34870,7 +34870,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -34911,7 +34911,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -34952,7 +34952,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -35141,8 +35141,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Semi-Automatic",
@@ -35178,9 +35178,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -35209,7 +35209,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -35234,7 +35234,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -35245,12 +35245,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -35275,7 +35275,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -35291,7 +35291,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             }
@@ -35316,7 +35316,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -35332,7 +35332,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             }
@@ -35357,7 +35357,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -35398,7 +35398,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -35439,7 +35439,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -35455,7 +35455,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -35480,7 +35480,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -35657,8 +35657,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -35694,9 +35694,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Vzorek",
         "availability": ""
@@ -35715,7 +35715,7 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -35750,7 +35750,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -35761,12 +35761,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Low\n-\nHigh",
+              "en": "Low - High",
               "tc": "低 - 高",
               "sc": "低 - 高"
             }
@@ -35791,7 +35791,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -35802,12 +35802,12 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -35832,7 +35832,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -35873,7 +35873,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -35914,13 +35914,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -35955,7 +35955,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -35996,13 +35996,13 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
           "unarmored": {
             "head": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             },
@@ -36037,7 +36037,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -36202,8 +36202,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Auto/Semi",
@@ -36239,9 +36239,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Vzorek",
         "availability": ""
@@ -36270,7 +36270,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -36295,7 +36295,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -36306,12 +36306,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Mid\n-\nHigh",
+              "en": "Mid - High",
               "tc": "中 - 高",
               "sc": "中 - 高"
             }
@@ -36336,7 +36336,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -36352,7 +36352,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -36377,7 +36377,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -36388,12 +36388,12 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             },
             "limbs": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             }
@@ -36418,7 +36418,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -36459,7 +36459,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -36475,7 +36475,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -36500,7 +36500,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -36541,7 +36541,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -36557,7 +36557,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "High\n-\nVery High",
+              "en": "High - Very High",
               "tc": "高 - 非常高",
               "sc": "高 - 非常高"
             }
@@ -36582,7 +36582,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -36747,8 +36747,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Primary",
-          "tc": "Primary",
-          "sc": "Primary"
+          "tc": "主武器",
+          "sc": "主武器"
         },
         "fire_mode": {
           "en": "Manual (double Barrel)",
@@ -36784,9 +36784,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -36815,7 +36815,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             }
@@ -36840,7 +36840,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -36851,12 +36851,12 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "body": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             },
             "limbs": {
-              "en": "Low\n-\nHigh",
+              "en": "Low - High",
               "tc": "低 - 高",
               "sc": "低 - 高"
             }
@@ -36881,7 +36881,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -36922,7 +36922,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -36933,12 +36933,12 @@ var CQB_DATA = {
               "sc": "穿甲级致命"
             },
             "body": {
-              "en": "High\n-\nLethal",
+              "en": "High - Lethal",
               "tc": "高 - 致命",
               "sc": "高 - 致命"
             },
             "limbs": {
-              "en": "Very High\n-\nLethal",
+              "en": "Very High - Lethal",
               "tc": "非常高 - 致命",
               "sc": "非常高 - 致命"
             }
@@ -36963,7 +36963,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -37004,7 +37004,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Tracer",
+            "en": "Tracer Ammo",
             "tc": "曳光彈",
             "sc": "曳光弹"
           },
@@ -37020,7 +37020,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             }
@@ -37045,7 +37045,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -37086,7 +37086,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "High-Grade",
+            "en": "High Grade Ammo",
             "tc": "高級子彈",
             "sc": "高级子弹"
           },
@@ -37102,7 +37102,7 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "Mid\n-\nVery High",
+              "en": "Mid - Very High",
               "tc": "中 - 非常高",
               "sc": "中 - 非常高"
             }
@@ -37127,7 +37127,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },
@@ -37299,13 +37299,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Muzzle-Loaded",
-          "tc": "Muzzle-Loaded",
-          "sc": "Muzzle-Loaded"
+          "tc": "前膛裝填步槍",
+          "sc": "前膛装填步枪"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -37341,9 +37341,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -37379,17 +37379,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37397,7 +37397,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -37420,17 +37420,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37438,7 +37438,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -37461,17 +37461,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37479,7 +37479,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -37502,17 +37502,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37683,8 +37683,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Double-Trigger",
@@ -37720,9 +37720,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -37758,17 +37758,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37776,7 +37776,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -37799,17 +37799,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37817,7 +37817,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -37840,17 +37840,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -37858,7 +37858,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -37881,17 +37881,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38056,13 +38056,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Grenade Launcher",
-          "tc": "Grenade Launcher",
-          "sc": "Grenade Launcher"
+          "tc": "榴彈發射器",
+          "sc": "榴弹发射器"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -38098,9 +38098,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -38136,17 +38136,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38253,8 +38253,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -38290,9 +38290,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -38311,34 +38311,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38346,40 +38346,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38387,40 +38387,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38428,40 +38428,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38577,8 +38577,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -38614,9 +38614,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -38635,34 +38635,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38670,40 +38670,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38711,40 +38711,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38752,40 +38752,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38901,8 +38901,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Pump-Action",
@@ -38938,9 +38938,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -38976,17 +38976,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -38994,7 +38994,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -39017,17 +39017,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -39035,7 +39035,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -39058,17 +39058,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -39076,7 +39076,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -39099,17 +39099,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -39279,8 +39279,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -39316,9 +39316,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -39354,17 +39354,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -39510,8 +39510,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Double-Action",
@@ -39547,9 +39547,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -39585,17 +39585,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -39728,8 +39728,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Double-Action",
@@ -39765,9 +39765,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -39803,17 +39803,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -39959,8 +39959,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -39996,9 +39996,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Fabrique Militaire",
         "availability": ""
@@ -40034,17 +40034,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40052,7 +40052,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -40075,17 +40075,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40093,7 +40093,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -40116,17 +40116,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40134,7 +40134,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -40157,17 +40157,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40266,13 +40266,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Handgun",
-          "tc": "Handgun",
-          "sc": "Handgun"
+          "tc": "手槍",
+          "sc": "手枪"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -40308,9 +40308,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Imperial Weapons Collection",
         "availability": ""
@@ -40346,17 +40346,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40364,7 +40364,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -40387,17 +40387,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40405,7 +40405,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -40428,17 +40428,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40446,7 +40446,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -40469,17 +40469,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40637,8 +40637,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi",
@@ -40674,9 +40674,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -40712,17 +40712,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40730,7 +40730,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -40753,17 +40753,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40771,7 +40771,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -40794,17 +40794,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -40812,7 +40812,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -40835,17 +40835,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41027,8 +41027,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi Automatic",
@@ -41064,9 +41064,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -41102,17 +41102,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41120,7 +41120,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -41143,17 +41143,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41161,7 +41161,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -41184,17 +41184,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41202,7 +41202,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -41225,17 +41225,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41405,8 +41405,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -41442,9 +41442,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -41480,17 +41480,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41648,8 +41648,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -41685,9 +41685,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Ravenwood Armaments& Redline Group",
         "availability": ""
@@ -41723,17 +41723,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41879,8 +41879,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -41916,9 +41916,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -41954,17 +41954,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -41972,7 +41972,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -41995,17 +41995,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42013,7 +42013,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -42036,17 +42036,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42054,7 +42054,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -42077,17 +42077,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42245,8 +42245,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -42282,9 +42282,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -42320,17 +42320,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42470,14 +42470,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/7/7b/Calico.png/revision/latest/scale-to-width-down/239?cb=20260802150121",
       "stats": {
         "weapon_class": {
-          "en": "SubMachine Gun",
-          "tc": "SubMachine Gun",
-          "sc": "SubMachine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -42513,9 +42513,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -42551,17 +42551,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42569,7 +42569,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -42592,17 +42592,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42610,7 +42610,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -42633,17 +42633,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42651,7 +42651,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -42674,17 +42674,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -42776,8 +42776,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -42813,9 +42813,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -42851,17 +42851,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43000,13 +43000,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Auto Pistol",
-          "tc": "Auto Pistol",
-          "sc": "Auto Pistol"
+          "tc": "衝鋒手槍",
+          "sc": "冲锋手枪"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -43042,9 +43042,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Modular Precision Defense",
         "availability": ""
@@ -43080,17 +43080,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43274,8 +43274,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -43311,9 +43311,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "VZorek",
         "availability": ""
@@ -43349,17 +43349,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43367,7 +43367,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -43390,17 +43390,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43408,7 +43408,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -43431,17 +43431,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43449,7 +43449,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -43472,17 +43472,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43647,13 +43647,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Personal Defense Weapon",
-          "tc": "Personal Defense Weapon",
-          "sc": "Personal Defense Weapon"
+          "tc": "個人防衛武器 (PDW)",
+          "sc": "个人防卫武器 (PDW)"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -43689,9 +43689,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Modular Precision Defense",
         "availability": ""
@@ -43727,17 +43727,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43745,7 +43745,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -43768,17 +43768,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43786,7 +43786,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -43809,17 +43809,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -43827,7 +43827,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -43850,17 +43850,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44036,14 +44036,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/4/47/MPD4K.webp/revision/latest/scale-to-width-down/239?cb=20260524212948",
       "stats": {
         "weapon_class": {
-          "en": "Sub Machine Gun",
-          "tc": "Sub Machine Gun",
-          "sc": "Sub Machine Gun"
+          "en": "Submachine Gun",
+          "tc": "衝鋒槍",
+          "sc": "冲锋枪"
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -44079,9 +44079,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Modular Precision Defense",
         "availability": ""
@@ -44117,17 +44117,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44135,7 +44135,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -44158,17 +44158,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44176,7 +44176,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -44199,17 +44199,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44217,7 +44217,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -44240,17 +44240,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44420,8 +44420,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Secondary",
-          "tc": "Secondary",
-          "sc": "Secondary"
+          "tc": "副武器",
+          "sc": "副武器"
         },
         "fire_mode": {
           "en": "Automatic",
@@ -44457,9 +44457,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "None (Default)",
         "availability": ""
@@ -44495,17 +44495,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44513,7 +44513,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -44536,17 +44536,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44554,7 +44554,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -44577,17 +44577,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44595,7 +44595,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -44618,17 +44618,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -44810,8 +44810,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -44820,8 +44820,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "700 M/S",
@@ -44847,9 +44847,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Event Exclusive27.07.2026 - 16.08.2026\nCan only be obtained either on the marketplace"
@@ -44903,7 +44903,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -44944,7 +44944,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -44985,7 +44985,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -45133,13 +45133,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Carbine",
-          "tc": "Carbine",
-          "sc": "Carbine"
+          "tc": "卡賓槍",
+          "sc": "卡宾枪"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -45175,9 +45175,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Event Exclusive27.07.2026 - 16.08.2026\nCan only be obtained either on the marketplace"
@@ -45231,7 +45231,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -45254,17 +45254,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -45272,7 +45272,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -45313,7 +45313,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -45354,7 +45354,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -45377,17 +45377,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -45395,7 +45395,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -45418,17 +45418,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -45556,8 +45556,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -45593,9 +45593,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Event Exclusive27.07.2026 - 16.08.2026\nCan only be obtained either on the marketplace"
@@ -45649,7 +45649,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -45690,7 +45690,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -45731,7 +45731,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -45844,8 +45844,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "TBA",
@@ -45881,9 +45881,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Weekly Leaderboards Rewards for top 3 or can only be obtained either on the marketplace"
@@ -45902,34 +45902,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -45937,40 +45937,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -45978,40 +45978,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46019,40 +46019,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46132,8 +46132,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "TBA",
@@ -46169,9 +46169,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Obtainable through requisition or can be obtained either on the marketplace"
@@ -46190,34 +46190,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46225,40 +46225,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46266,40 +46266,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46307,40 +46307,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46420,8 +46420,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "TBA",
@@ -46457,9 +46457,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Weekly Leaderboards Rewards for top 3 or can only be obtained either on the marketplace"
@@ -46478,34 +46478,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46513,40 +46513,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46554,40 +46554,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46595,40 +46595,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46708,8 +46708,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "TBA",
@@ -46745,9 +46745,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Event Exclusive22.10.2026 - 05.11.2026\nDrops from bosses except Allik, Classic Mode only or can only be obtained either on the marketplace"
@@ -46766,34 +46766,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46801,40 +46801,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46842,40 +46842,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46883,40 +46883,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -46996,8 +46996,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi Automatic",
@@ -47033,9 +47033,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Event Exclusive22.10.2026 - 05.11.2026\nDrops from bosses except Allik, Classic Mode only or can only be obtained either on the marketplace"
@@ -47064,24 +47064,24 @@ var CQB_DATA = {
               "sc": "高"
             },
             "limbs": {
-              "en": "Low-Very Low",
+              "en": "Low - Very Low",
               "tc": "低 - 極低",
               "sc": "低 - 极低"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47089,7 +47089,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -47105,24 +47105,24 @@ var CQB_DATA = {
               "sc": "中"
             },
             "limbs": {
-              "en": "Mid-Low",
+              "en": "Mid - Low",
               "tc": "中 - 低",
               "sc": "中 - 低"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47130,7 +47130,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -47146,24 +47146,24 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "limbs": {
-              "en": "mid",
-              "tc": "mid",
-              "sc": "mid"
+              "en": "Mid",
+              "tc": "中",
+              "sc": "中"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47171,7 +47171,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -47194,17 +47194,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47284,8 +47284,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "TBA",
@@ -47321,9 +47321,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Event Exclusive22.10.2026 - 05.11.2026\nDrops from bosses except Allik, Classic Mode only or can only be obtained either on the marketplace"
@@ -47342,34 +47342,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47377,40 +47377,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47418,40 +47418,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47459,40 +47459,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47566,14 +47566,14 @@ var CQB_DATA = {
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/6/6a/ATeto4.png/revision/latest/scale-to-width-down/239?cb=20260919004227",
       "stats": {
         "weapon_class": {
-          "en": "Rocket launcher",
-          "tc": "Rocket launcher",
-          "sc": "Rocket launcher"
+          "en": "Rocket Launcher",
+          "tc": "火箭發射器",
+          "sc": "火箭发射器"
         },
         "weapon_slot": {
-          "en": "Tertiary (Special)",
-          "tc": "Tertiary (Special)",
-          "sc": "Tertiary (Special)"
+          "en": "Tertiary",
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Single-shot",
@@ -47581,9 +47581,9 @@ var CQB_DATA = {
           "sc": "Single-shot"
         },
         "wallbang": {
-          "en": "no",
-          "tc": "no",
-          "sc": "no"
+          "en": "None",
+          "tc": "無",
+          "sc": "无"
         },
         "muzzle_velocity": {
           "en": "300 M/S",
@@ -47609,9 +47609,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -47665,7 +47665,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -47706,7 +47706,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -47747,7 +47747,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -47867,13 +47867,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Handgun",
-          "tc": "Handgun",
-          "sc": "Handgun"
+          "tc": "手槍",
+          "sc": "手枪"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -47909,9 +47909,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -47947,17 +47947,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -47965,7 +47965,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -47988,17 +47988,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48006,7 +48006,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -48029,17 +48029,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48047,7 +48047,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -48070,17 +48070,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48222,13 +48222,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Handgun",
-          "tc": "Handgun",
-          "sc": "Handgun"
+          "tc": "手槍",
+          "sc": "手枪"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Break-Action",
@@ -48264,9 +48264,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Can only be obtained either on the marketplace or with a low chance dropped by enemies."
@@ -48302,17 +48302,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48320,7 +48320,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -48343,17 +48343,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48361,7 +48361,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -48384,17 +48384,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48402,7 +48402,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -48425,17 +48425,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48600,13 +48600,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Sawed-Off Rifle",
-          "tc": "Sawed-Off Rifle",
-          "sc": "Sawed-Off Rifle"
+          "tc": "削短型步槍",
+          "sc": "削短型步枪"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Bolt-Action",
@@ -48615,8 +48615,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "600 M/S",
@@ -48642,9 +48642,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -48673,9 +48673,9 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "mid - low",
-              "tc": "mid - low",
-              "sc": "mid - low"
+              "en": "Mid - Low",
+              "tc": "中 - 低",
+              "sc": "中 - 低"
             }
           },
           "armored": {
@@ -48698,7 +48698,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -48721,17 +48721,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48739,7 +48739,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -48762,17 +48762,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48780,7 +48780,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -48803,17 +48803,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -48968,8 +48968,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Pump Action",
@@ -48977,9 +48977,9 @@ var CQB_DATA = {
           "sc": "泵动式"
         },
         "wallbang": {
-          "en": "0",
-          "tc": "0",
-          "sc": "0"
+          "en": "None",
+          "tc": "無",
+          "sc": "无"
         },
         "muzzle_velocity": {
           "en": "100 M/S",
@@ -49005,9 +49005,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Can only be obtained either on the marketplace or with a low chance dropped by enemies."
@@ -49061,7 +49061,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -49102,7 +49102,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -49143,7 +49143,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -49184,7 +49184,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
@@ -49225,7 +49225,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
@@ -49338,8 +49338,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Burst",
@@ -49375,9 +49375,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -49396,34 +49396,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49431,40 +49431,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49472,40 +49472,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49513,40 +49513,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49626,8 +49626,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -49663,9 +49663,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -49701,17 +49701,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49843,8 +49843,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi",
@@ -49880,9 +49880,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -49918,17 +49918,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49936,7 +49936,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -49959,17 +49959,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -49977,7 +49977,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -50000,17 +50000,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -50018,7 +50018,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -50041,17 +50041,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -50204,13 +50204,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Pistol (Nail gun)",
-          "tc": "Pistol (Nail gun)",
-          "sc": "Pistol (Nail gun)"
+          "tc": "手槍 (射釘槍)",
+          "sc": "手枪 (射钉枪)"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Semi - Automatic",
@@ -50219,8 +50219,8 @@ var CQB_DATA = {
         },
         "wallbang": {
           "en": "1 Wall",
-          "tc": "1 Wall",
-          "sc": "1 Wall"
+          "tc": "1面牆",
+          "sc": "1面墙"
         },
         "muzzle_velocity": {
           "en": "TBA M/S",
@@ -50246,9 +50246,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -50284,17 +50284,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -50369,13 +50369,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Electroshock Weapon",
-          "tc": "Electroshock Weapon",
-          "sc": "Electroshock Weapon"
+          "tc": "電擊武器",
+          "sc": "电击武器"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Single-Shot",
@@ -50411,9 +50411,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "Low(Never)",
-          "tc": "Low(Never)",
-          "sc": "Low(Never)"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Can only be obtained either on the marketplace or with a low chance dropped by enemies."
@@ -50432,241 +50432,241 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           },
           "armored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           },
           "armored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           },
           "armored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           },
           "armored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Incendiary",
+            "en": "Incendiary Ammo",
             "tc": "燃燒子彈",
             "sc": "燃烧子弹"
           },
           "unarmored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           },
           "armored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Rubber",
+            "en": "Rubber Ammo",
             "tc": "橡膠子彈",
             "sc": "橡胶子弹"
           },
           "unarmored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           },
           "armored": {
             "head": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "body": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             },
             "limbs": {
-              "en": "no",
-              "tc": "no",
-              "sc": "no"
+              "en": "None",
+              "tc": "無",
+              "sc": "无"
             }
           }
         }
@@ -50747,8 +50747,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "TBA",
@@ -50784,9 +50784,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "Can only be obtained either on the marketplace or with a low chance dropped by enemies.",
         "availability": ""
@@ -50805,34 +50805,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -50840,40 +50840,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -50881,40 +50881,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -50922,40 +50922,40 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -51030,13 +51030,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Heavy Magnum Pistol",
-          "tc": "Heavy Magnum Pistol",
-          "sc": "Heavy Magnum Pistol"
+          "tc": "重型麥格農手槍",
+          "sc": "重型马格南手枪"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Single-Action",
@@ -51072,9 +51072,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Mods Exclusive"
@@ -51110,17 +51110,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -51128,7 +51128,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -51151,17 +51151,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -51169,7 +51169,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -51192,17 +51192,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -51210,7 +51210,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -51233,17 +51233,17 @@ var CQB_DATA = {
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -51320,8 +51320,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Single-Action",
@@ -51357,9 +51357,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Devs Exclusive"
@@ -51378,34 +51378,34 @@ var CQB_DATA = {
           },
           "unarmored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
           },
           "armored": {
             "head": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "body": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             },
             "limbs": {
-              "en": "Soon",
+              "en": "Coming Soon",
               "tc": "即將公開",
               "sc": "即将公开"
             }
@@ -51489,13 +51489,13 @@ var CQB_DATA = {
       "stats": {
         "weapon_class": {
           "en": "Heavy Pistol",
-          "tc": "Heavy Pistol",
-          "sc": "Heavy Pistol"
+          "tc": "重型手槍",
+          "sc": "重型手枪"
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Single-Action",
@@ -51531,9 +51531,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Testers Exclusive"
@@ -51587,7 +51587,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -51628,7 +51628,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -51669,7 +51669,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -51785,8 +51785,8 @@ var CQB_DATA = {
         },
         "weapon_slot": {
           "en": "Tertiary",
-          "tc": "Tertiary",
-          "sc": "Tertiary"
+          "tc": "特殊武器",
+          "sc": "特殊武器"
         },
         "fire_mode": {
           "en": "Double-Action",
@@ -51822,9 +51822,9 @@ var CQB_DATA = {
           "sc": "否"
         },
         "jam_chance": {
-          "en": "None",
-          "tc": "零",
-          "sc": "零"
+          "en": "Never",
+          "tc": "從不",
+          "sc": "从不"
         },
         "contract": "",
         "availability": "Wiki Staffs Exclusive"
@@ -51878,7 +51878,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Light",
+            "en": "Light Ammo",
             "tc": "輕型子彈",
             "sc": "轻型子弹"
           },
@@ -51889,14 +51889,14 @@ var CQB_DATA = {
               "sc": "非常高"
             },
             "body": {
-              "en": "mid",
-              "tc": "mid",
-              "sc": "mid"
+              "en": "Mid",
+              "tc": "中",
+              "sc": "中"
             },
             "limbs": {
-              "en": "medium - low",
-              "tc": "medium - low",
-              "sc": "medium - low"
+              "en": "Mid - Low",
+              "tc": "中 - 低",
+              "sc": "中 - 低"
             }
           },
           "armored": {
@@ -51919,7 +51919,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "AP (Armor Piercing)",
+            "en": "Armor-Piercing (AP) Ammo",
             "tc": "穿甲彈",
             "sc": "穿甲弹"
           },
@@ -51960,7 +51960,7 @@ var CQB_DATA = {
         },
         {
           "ammo_type": {
-            "en": "Heavy",
+            "en": "Heavy Ammo",
             "tc": "重型子彈",
             "sc": "重型子弹"
           },
@@ -51976,9 +51976,9 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "lethal - very high",
-              "tc": "lethal - very high",
-              "sc": "lethal - very high"
+              "en": "Lethal - Very High",
+              "tc": "致命 - 非常高",
+              "sc": "致命 - 非常高"
             }
           },
           "armored": {
@@ -51993,15 +51993,15 @@ var CQB_DATA = {
               "sc": "致命"
             },
             "limbs": {
-              "en": "lethal -high",
-              "tc": "lethal - high",
-              "sc": "lethal - high"
+              "en": "Lethal - High",
+              "tc": "致命 - 高",
+              "sc": "致命 - 高"
             }
           }
         },
         {
           "ammo_type": {
-            "en": "Explosive",
+            "en": "Explosive Ammo",
             "tc": "爆炸子彈",
             "sc": "爆炸子弹"
           },

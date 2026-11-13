@@ -1508,13 +1508,13 @@
       <!-- Author Credit -->
       <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer" class="author-badge" title="NiktoBlox Roblox Profile">
         <span style="font-size: 14px;">🎖️</span>
-        <span id="ui-author-label">網站製作者：</span>
+        <span id="ui-author-label">Author: </span>
         <strong>NiktoBlox</strong>
       </a>
       <!-- Language Switcher -->
       <div class="lang-switcher">
-        <button class="lang-btn" onclick="setLanguage('en')">EN</button>
-        <button class="lang-btn active" onclick="setLanguage('tc')">繁中</button>
+        <button class="lang-btn active" onclick="setLanguage('en')">EN</button>
+        <button class="lang-btn" onclick="setLanguage('tc')">繁中</button>
         <button class="lang-btn" onclick="setLanguage('sc')">简中</button>
       </div>
     </div>
@@ -1572,7 +1572,7 @@
     <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
       <div>CQB HELL // ARMORY DATABASE & WEAPON COMPENDIUM</div>
       <div>
-        <span id="ui-footer-author">網站製作者：</span>
+        <span id="ui-footer-author">Author: </span>
         <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer">NiktoBlox</a>
       </div>
     </div>
@@ -1652,7 +1652,7 @@
   <!-- Main Application Logic -->
   <script>
     // State
-    let currentLang = 'tc'; // 'en', 'tc', 'sc'
+    let currentLang = 'en'; // 'en', 'tc', 'sc'
     let currentMainCat = 'all'; // 'all', 'primary', 'secondary', 'tertiary'
     let currentSubCat = 'all'; // 'all' or subcategory key
     let searchQuery = '';
@@ -1662,7 +1662,7 @@
     const I18N = {
       en: {
         subtitle: "TACTICAL WEAPON CODEX & HEAD-TO-HEAD COMPARISON",
-        authorLabel: "Created by: ",
+        authorLabel: "Author: ",
         searchPlaceholder: "Search weapon name, caliber, IRL counterpart, fire mode...",
         sortBy: "SORT BY:",
         showing: "SHOWING:",
@@ -1701,7 +1701,7 @@
         pros: "Tactical Advantages",
         cons: "Operational Limitations",
         loadoutTips: "Recommended Loadout & Combat Tips",
-        compareTitle: "TACTICAL HEAD-TO-HEAD COMPARISON",
+        compareTitle: "TACTICAL WEAPON COMPARISON",
         ammoCompareTitle: "💥 AMMO TYPE & DAMAGE MATRIX // HEAD-TO-HEAD",
         ammoDirectMatchup: "STANDARD AMMO DIRECT DAMAGE MATCHUP",
         supportedAmmoCount: "Supported Ammo Types",
@@ -1711,7 +1711,16 @@
         verdictOverall: "🎯 AI Tactical Verdict & Loadout Summary",
         limitToast: "Comparison is strictly limited to 2 weapons! Please remove one before adding another.",
         addedToast: "Added to comparison list (2 weapons limit).",
-        noAmmoTable: "Ammo damage matrix currently under classification."
+        noAmmoTable: "Ammo damage matrix currently under classification.",
+        switchWeapon: "Switch Weapon",
+        specParameter: "Parameter / Metric",
+        specMatrix: "SPECIFICATION MATRIX",
+        sortOptions: {
+          name: "Name (A-Z)",
+          vel_desc: "Muzzle Velocity (High → Low)",
+          mag_desc: "Magazine Capacity (High → Low)",
+          start_ammo_desc: "Starting Ammo (High → Low)"
+        }
       },
       tc: {
         subtitle: "CQB HELL 武器軍械庫圖鑑與雙武器即時對比分析系統",
@@ -1764,7 +1773,16 @@
         verdictOverall: "🎯 戰術綜合裁決與選配推薦",
         limitToast: "武器對比功能僅限 2 把武器！請先移除其中一把後再選擇。",
         addedToast: "已加入武器對比清單 (上限 2 把)。",
-        noAmmoTable: "該武器彈藥矩陣數據保密整理中。"
+        noAmmoTable: "該武器彈藥矩陣數據保密整理中。",
+        switchWeapon: "更換對比武器",
+        specParameter: "核心規格參數",
+        specMatrix: "核心規格參數矩陣",
+        sortOptions: {
+          name: "名稱 (A-Z)",
+          vel_desc: "槍口初速 (高 → 低)",
+          mag_desc: "彈匣容量 (高 → 低)",
+          start_ammo_desc: "初始備彈 (高 → 低)"
+        }
       },
       sc: {
         subtitle: "CQB HELL 武器军械库图鉴与双武器即时对比分析系统",
@@ -1817,7 +1835,16 @@
         verdictOverall: "🎯 战术综合裁决与选配推荐",
         limitToast: "武器对比功能仅限 2 把武器！请先移除其中一把后再选择。",
         addedToast: "已加入武器对比清单 (上限 2 把)。",
-        noAmmoTable: "该武器弹药矩阵数据保密整理中。"
+        noAmmoTable: "该武器弹药矩阵数据保密整理中。",
+        switchWeapon: "更换对比武器",
+        specParameter: "核心规格参数",
+        specMatrix: "核心规格参数矩阵",
+        sortOptions: {
+          name: "名称 (A-Z)",
+          vel_desc: "枪口初速 (高 → 低)",
+          mag_desc: "弹匣容量 (高 → 低)",
+          start_ammo_desc: "初始备弹 (高 → 低)"
+        }
       }
     };
 
@@ -1854,10 +1881,38 @@
       document.getElementById('ui-dock-title').textContent = t.dockTitle;
       document.getElementById('btn-launch-compare').textContent = t.startCompare;
 
+      if (document.getElementById('ui-author-label')) {
+        document.getElementById('ui-author-label').textContent = t.authorLabel;
+      }
+      if (document.getElementById('ui-footer-author')) {
+        document.getElementById('ui-footer-author').textContent = t.authorLabel;
+      }
+      if (document.getElementById('ui-compare-title')) {
+        document.getElementById('ui-compare-title').textContent = t.compareTitle;
+      }
+
+      // Update sort options dynamically
+      const sortSelect = document.getElementById('sort-select');
+      if (sortSelect && t.sortOptions) {
+        const curSort = sortSelect.value;
+        sortSelect.innerHTML = `
+          <option value="name" ${curSort === 'name' ? 'selected' : ''}>${t.sortOptions.name}</option>
+          <option value="vel_desc" ${curSort === 'vel_desc' ? 'selected' : ''}>${t.sortOptions.vel_desc}</option>
+          <option value="mag_desc" ${curSort === 'mag_desc' ? 'selected' : ''}>${t.sortOptions.mag_desc}</option>
+          <option value="start_ammo_desc" ${curSort === 'start_ammo_desc' ? 'selected' : ''}>${t.sortOptions.start_ammo_desc}</option>
+        `;
+      }
+
       renderMainCatTabs();
       renderSubCatPills();
       renderWeaponsGrid();
       updateCompareDock();
+
+      // If comparison modal is open, re-render it
+      const compareModal = document.getElementById('compare-modal');
+      if (compareModal && compareModal.classList.contains('active')) {
+        renderComparisonModal();
+      }
 
       // If modal is open, re-render it
       const modal = document.getElementById('weapon-modal');
@@ -2483,26 +2538,50 @@
 
       // Determine CQB & Range winners
       let cqbWinner = wA;
-      let cqbReason = "";
+      let cqbReason = {};
       if ((wA.cat_sub === 'shotguns' || wA.cat_sub === 'machine_pistols') && (wB.cat_sub !== 'shotguns')) {
         cqbWinner = wA;
-        cqbReason = `${wA.name} dominates point-blank breaching with devastating close-range burst DPS.`;
+        cqbReason = {
+          en: `${wA.name} dominates point-blank breaching with devastating close-range burst DPS.`,
+          tc: `${wA.name} 在破門與極近距離接敵具備壓倒性的高爆發傷害輸出。`,
+          sc: `${wA.name} 在破门与极近距离接敌具备压倒性的高爆发伤害输出。`
+        };
       } else if (wB.cat_sub === 'shotguns' || wB.cat_sub === 'machine_pistols') {
         cqbWinner = wB;
-        cqbReason = `${wB.name} delivers superior burst lethality and room-clearing power in tight quarters.`;
+        cqbReason = {
+          en: `${wB.name} delivers superior burst lethality and room-clearing power in tight quarters.`,
+          tc: `${wB.name} 在狹小空間交火中具備更優異的破門殺傷力與極速制止力。`,
+          sc: `${wB.name} 在狭小空间交火中具备更优异的破门杀伤力与极速制止力。`
+        };
       } else if (magA > magB && (wA.stats.fire_mode.en || '').includes('Auto')) {
         cqbWinner = wA;
-        cqbReason = `Larger magazine capacity (${magA} vs ${magB}) and full-auto capability provide continuous fire.`;
+        cqbReason = {
+          en: `Larger magazine capacity (${magA} vs ${magB}) and full-auto capability provide continuous fire.`,
+          tc: `更充裕的彈匣容量 (${magA} vs ${magB}) 與全自動模式，提供連續壓制火力優勢。`,
+          sc: `更充裕的弹匣容量 (${magA} vs ${magB}) 与全自动模式，提供连续压制火力优势。`
+        };
       } else if (magB > magA && (wB.stats.fire_mode.en || '').includes('Auto')) {
         cqbWinner = wB;
-        cqbReason = `Superior magazine sustain (${magB} vs ${magA}) allows handling multiple hostiles without reloading.`;
+        cqbReason = {
+          en: `Superior magazine sustain (${magB} vs ${magA}) allows handling multiple hostiles without reloading.`,
+          tc: `更強大的續航彈匣 (${magB} vs ${magA})，使應對多名敵方威脅時無須頻繁裝填。`,
+          sc: `更强大的续航弹匣 (${magB} vs ${magA})，使应对多名敌方威胁时无需频繁装填。`
+        };
       } else {
         cqbWinner = velA > velB ? wA : wB;
-        cqbReason = `Higher ballistic velocity and rapid weapon handling provide quicker response in hallway ambushes.`;
+        cqbReason = {
+          en: `Higher ballistic velocity and rapid weapon handling provide quicker response in hallway ambushes.`,
+          tc: `更高的彈道初速與靈活的槍身操控，在走廊遭遇戰中具備更快的接敵先手機會。`,
+          sc: `更高的弹道初速与灵活的枪身操控，在走廊遭遇战中具备更快的接敌先机。`
+        };
       }
 
       let rangeWinner = velA >= velB ? wA : wB;
-      let rangeReason = `${rangeWinner.name} features higher muzzle velocity (${Math.max(velA, velB)} M/S) ensuring flatter ballistic trajectories and surgical precision.`;
+      let rangeReason = {
+        en: `${rangeWinner.name} features higher muzzle velocity (${Math.max(velA, velB)} M/S) ensuring flatter ballistic trajectories and surgical precision.`,
+        tc: `${rangeWinner.name} 具備更高的槍口初速 (${Math.max(velA, velB)} M/S)，彈道下墜更平直，中遠距離精準度卓越。`,
+        sc: `${rangeWinner.name} 具备更高的枪口初速 (${Math.max(velA, velB)} M/S)，弹道下坠更平直，中远距离精准度卓越。`
+      };
 
       let relWinner = wA;
       if (wA.stats.can_jam.en === 'NO' && wB.stats.can_jam.en === 'YES') {
@@ -2512,7 +2591,11 @@
       } else {
         relWinner = ammoA >= ammoB ? wA : wB;
       }
-      let relReason = `${relWinner.name} provides superior combat reliability with minimal jam risk and robust ammo supply.`;
+      let relReason = {
+        en: `${relWinner.name} provides superior combat reliability with minimal jam risk and robust ammo supply.`,
+        tc: `${relWinner.name} 具備極佳的戰地可靠度，卡彈風險更低且起始備彈更充沛。`,
+        sc: `${relWinner.name} 具备极佳的战地可靠度，卡弹几率更低且初始备弹更充沛。`
+      };
 
             // 1. Render Freeze Header (Excel Freeze Pane)
       const freezeSlot = document.getElementById('comparison-vs-header-slot');
@@ -2523,7 +2606,7 @@
             <div class="vs-weapon-meta" style="flex: 1;">
               <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
                 <h3>${wA.name}</h3>
-                <select class="freeze-weapon-select" title="更換對比武器 / Switch Weapon" onchange="changeCompareWeapon(0, this.value)">
+                <select class="freeze-weapon-select" title="${t.switchWeapon}" onchange="changeCompareWeapon(0, this.value)">
                   ${renderWeaponSelectOptions(wA.id)}
                 </select>
               </div>
@@ -2537,7 +2620,7 @@
             <div class="vs-weapon-meta" style="flex: 1;">
               <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
                 <h3>${wB.name}</h3>
-                <select class="freeze-weapon-select" title="更換對比武器 / Switch Weapon" onchange="changeCompareWeapon(1, this.value)">
+                <select class="freeze-weapon-select" title="${t.switchWeapon}" onchange="changeCompareWeapon(1, this.value)">
                   ${renderWeaponSelectOptions(wB.id)}
                 </select>
               </div>
@@ -2624,13 +2707,13 @@
         <!-- Specifications Side-by-Side Table -->
         <div class="modal-section">
           <div class="modal-section-header">
-            <span class="modal-section-title">📊 SPECIFICATION MATRIX</span>
+            <span class="modal-section-title">📊 ${t.specMatrix}</span>
           </div>
           <div class="modal-section-content" style="padding: 0;">
             <table class="tactical-table">
               <thead>
                 <tr>
-                  <th style="width: 30%;">${t.head} / Spec</th>
+                  <th style="width: 30%;">${t.specParameter}</th>
                   <th style="width: 35%; color: var(--accent);">${wA.name}</th>
                   <th style="width: 35%; color: var(--cyan);">${wB.name}</th>
                 </tr>
@@ -2812,17 +2895,17 @@
               <div class="verdict-card highlight">
                 <div class="verdict-badge">${t.verdictCQB}</div>
                 <div class="verdict-winner-name">${cqbWinner.name}</div>
-                <div class="verdict-desc">${cqbReason}</div>
+                <div class="verdict-desc">${cqbReason[currentLang] || cqbReason.en}</div>
               </div>
               <div class="verdict-card">
                 <div class="verdict-badge">${t.verdictRange}</div>
                 <div class="verdict-winner-name">${rangeWinner.name}</div>
-                <div class="verdict-desc">${rangeReason}</div>
+                <div class="verdict-desc">${rangeReason[currentLang] || rangeReason.en}</div>
               </div>
               <div class="verdict-card">
                 <div class="verdict-badge">${t.verdictReliability}</div>
                 <div class="verdict-winner-name">${relWinner.name}</div>
-                <div class="verdict-desc">${relReason}</div>
+                <div class="verdict-desc">${relReason[currentLang] || relReason.en}</div>
               </div>
             </div>
           </div>
@@ -2837,7 +2920,7 @@
         renderWeaponsGrid();
       });
 
-      setLanguage('tc'); // default to Traditional Chinese as requested
+      setLanguage('en'); // default to English as requested
     });
   </script>
 </body>
