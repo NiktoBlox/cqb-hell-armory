@@ -1,0 +1,2844 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CQB HELL // ARMORY DATABASE & WEAPON COMPARISON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@300;400;600;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #070709;
+      --bg-card: #101015;
+      --bg-card-hover: #16161f;
+      --bg-panel: #0d0d12;
+      --border: #21212b;
+      --border-accent: #ff5500;
+      --accent: #ff5500;
+      --accent-glow: rgba(255, 85, 0, 0.35);
+      --accent-dim: rgba(255, 85, 0, 0.15);
+      --cyan: #00d2ff;
+      --cyan-glow: rgba(0, 210, 255, 0.35);
+      --green: #10b981;
+      --red: #ef4444;
+      --purple: #a855f7;
+      --amber: #f59e0b;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --font-mono: 'JetBrains Mono', monospace;
+      --font-ui: 'Chakra Petch', 'Noto Sans TC', 'Noto Sans SC', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(255, 85, 0, 0.08) 0%, transparent 60%),
+        linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 30px 30px, 30px 30px;
+      color: var(--text-main);
+      font-family: var(--font-ui);
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-bottom: 120px;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0a0a0e;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2a2a38;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent);
+    }
+
+    /* Header */
+    header {
+      background: rgba(13, 13, 18, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-icon {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, var(--accent), #b33600);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 20px;
+      color: #000;
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+
+    .brand-text h1 {
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-text h1 span {
+      color: var(--accent);
+    }
+
+    .brand-text p {
+      font-size: 11px;
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+      letter-spacing: 0.5px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    /* Language Switcher */
+    .lang-switcher {
+      display: flex;
+      background: #15151e;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px;
+      gap: 3px;
+    }
+
+    .lang-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .lang-btn.active {
+      background: var(--accent);
+      color: #000;
+      font-weight: 700;
+      box-shadow: 0 0 10px var(--accent-glow);
+    }
+
+    .lang-btn:hover:not(.active) {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    /* Controls & Navigation */
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    /* Search & Filter Toolbar */
+    .toolbar {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 280px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: #09090d;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px 16px 12px 42px;
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-box input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 12px var(--accent-dim);
+    }
+
+    .search-box svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      fill: var(--text-dim);
+    }
+
+    .sort-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sort-box label {
+      font-size: 13px;
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+    }
+
+    .sort-box select {
+      background: #09090d;
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      padding: 10px 14px;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Main Category Tabs */
+    .category-tabs {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 14px;
+      overflow-x: auto;
+    }
+
+    .cat-tab {
+      background: #14141d;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .cat-tab:hover {
+      background: #1d1d2b;
+      color: var(--text-main);
+      border-color: #3b3b4f;
+    }
+
+    .cat-tab.active {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: 0 0 12px var(--accent-dim);
+    }
+
+    .cat-tab .badge {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 2px 7px;
+      border-radius: 10px;
+      font-size: 11px;
+    }
+
+    /* Subcategory Pills */
+    .subcat-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .subcat-pill {
+      background: transparent;
+      border: 1px solid #1f1f2c;
+      color: var(--text-dim);
+      font-size: 12px;
+      font-family: var(--font-mono);
+      padding: 6px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .subcat-pill:hover {
+      border-color: #3f3f56;
+      color: var(--text-main);
+    }
+
+    .subcat-pill.active {
+      background: #252533;
+      border-color: var(--cyan);
+      color: var(--cyan);
+      box-shadow: 0 0 8px var(--cyan-glow);
+    }
+
+    /* Armory Grid */
+    .armory-stats-bar {
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .weapons-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    /* Weapon Card */
+    .weapon-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top: 3px solid #333344;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .weapon-card:hover {
+      transform: translateY(-4px);
+      border-color: #3b3b4f;
+      border-top-color: var(--accent);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 85, 0, 0.15);
+    }
+
+    .weapon-card.selected-for-compare {
+      border-color: var(--cyan);
+      border-top-color: var(--cyan);
+      box-shadow: 0 0 20px var(--cyan-glow);
+    }
+
+    .card-tier-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 5;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .tier-S { background: #ff0055; color: #fff; box-shadow: 0 0 8px rgba(255,0,85,0.5); }
+    .tier-A { background: var(--accent); color: #000; box-shadow: 0 0 8px var(--accent-glow); }
+    .tier-B { background: var(--cyan); color: #000; }
+    .tier-C { background: #4b5563; color: #fff; }
+    .tier-SPECIAL { background: linear-gradient(135deg, #a855f7, #6366f1); color: #fff; box-shadow: 0 0 10px rgba(168,85,247,0.5); }
+
+    .card-compare-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 5;
+      background: rgba(16, 16, 21, 0.85);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s;
+    }
+
+    .card-compare-btn:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+    }
+
+    .card-compare-btn.active {
+      background: var(--cyan);
+      border-color: var(--cyan);
+      color: #000;
+      font-weight: 700;
+      box-shadow: 0 0 10px var(--cyan-glow);
+    }
+
+    .card-img-box {
+      height: 160px;
+      background: radial-gradient(circle at 50% 50%, #171722 0%, #0a0a0f 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .card-img-box img {
+      max-height: 100%;
+      max-width: 90%;
+      object-fit: contain;
+      filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.7));
+      transition: transform 0.3s;
+    }
+
+    .weapon-card:hover .card-img-box img {
+      transform: scale(1.06);
+    }
+
+    .card-content {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-header {
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #fff;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .card-cat-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--accent);
+      margin-top: 2px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 14px;
+      background: #0b0b10;
+      border: 1px solid #1a1a24;
+      border-radius: 6px;
+      padding: 10px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .stat-label {
+      color: var(--text-dim);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-val {
+      color: var(--text-main);
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .stat-val.accent { color: var(--accent); }
+    .stat-val.cyan { color: var(--cyan); }
+    .stat-val.green { color: var(--green); }
+
+    .card-footer {
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid #1a1a24;
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-detail {
+      flex: 1;
+      background: #171722;
+      border: 1px solid #28283a;
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 9px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-detail:hover {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+
+    /* FLOATING COMPARISON DOCK */
+    .compare-dock {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%) translateY(120%);
+      background: rgba(13, 13, 18, 0.95);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--cyan);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9), 0 0 25px var(--cyan-glow);
+      border-radius: 12px;
+      padding: 12px 20px;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      max-width: 90vw;
+    }
+
+    .compare-dock.visible {
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .dock-title {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--cyan);
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .dock-slots {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .dock-slot {
+      width: 170px;
+      height: 52px;
+      background: #151520;
+      border: 1px dashed #303045;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      padding: 6px 10px;
+      gap: 8px;
+      position: relative;
+    }
+
+    .dock-slot.filled {
+      border-style: solid;
+      border-color: var(--cyan);
+      background: #121824;
+    }
+
+    .dock-slot-img {
+      width: 40px;
+      height: 38px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    }
+
+    .dock-slot-info {
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .dock-slot-name {
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .dock-slot-cat {
+      font-size: 10px;
+      font-family: var(--font-mono);
+      color: var(--text-dim);
+    }
+
+    .dock-slot-empty {
+      font-size: 11px;
+      font-family: var(--font-mono);
+      color: var(--text-dim);
+      text-align: center;
+      width: 100%;
+    }
+
+    .dock-slot-remove {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 14px;
+      padding: 2px;
+      transition: color 0.2s;
+    }
+
+    .dock-slot-remove:hover {
+      color: var(--red);
+    }
+
+    .dock-vs {
+      font-family: var(--font-mono);
+      font-weight: 900;
+      font-size: 13px;
+      color: var(--accent);
+      text-shadow: 0 0 8px var(--accent-glow);
+    }
+
+    .dock-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-launch-compare {
+      background: var(--cyan);
+      border: none;
+      color: #000;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 12px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      box-shadow: 0 0 15px var(--cyan-glow);
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-launch-compare:hover {
+      background: #38e1ff;
+      transform: scale(1.03);
+    }
+
+    .btn-launch-compare:disabled {
+      background: #252533;
+      color: #666;
+      box-shadow: none;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-clear-dock {
+      background: transparent;
+      border: 1px solid #333345;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 9px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-clear-dock:hover {
+      border-color: var(--red);
+      color: var(--red);
+    }
+
+    /* MODAL OVERLAY */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(12px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 16px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-container {
+      background: #0f0f15;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 1050px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9), 0 0 30px rgba(255, 85, 0, 0.15);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      background: #14141d;
+      border-bottom: 1px solid var(--border);
+      padding: 18px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .modal-header-title h2 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+
+    .modal-close-btn {
+      background: #1e1e2c;
+      border: 1px solid #333348;
+      color: var(--text-muted);
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: all 0.2s;
+    }
+
+    .modal-close-btn:hover {
+      background: var(--red);
+      color: #fff;
+      border-color: var(--red);
+    }
+
+    .modal-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    /* Modal Section Styling */
+    .modal-section {
+      background: #121219;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .modal-section-header {
+      background: #171722;
+      border-bottom: 1px solid var(--border);
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-section-title {
+      font-size: 13px;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-section-badge {
+      background: rgba(255, 85, 0, 0.15);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      font-size: 10px;
+      font-family: var(--font-mono);
+      padding: 2px 6px;
+      border-radius: 2px;
+      font-weight: 600;
+    }
+
+    .modal-section-content {
+      padding: 18px;
+    }
+
+    /* Section 1: Profile */
+    .profile-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 768px) {
+      .profile-layout { grid-template-columns: 1fr; }
+    }
+
+    .profile-img-card {
+      background: radial-gradient(circle at 50% 50%, #1c1c28 0%, #0d0d12 100%);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 220px;
+    }
+
+    .profile-img-card img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.8));
+    }
+
+    .profile-info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .profile-data-box {
+      background: #0b0b0f;
+      border: 1px solid #1c1c27;
+      border-radius: 6px;
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      font-family: var(--font-mono);
+    }
+
+    .profile-data-box .label {
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .profile-data-box .value {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* Section 2: Ammo Matrix Table */
+    .table-responsive {
+      overflow-x: auto;
+    }
+
+    .tactical-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .tactical-table th, .tactical-table td {
+      padding: 10px 14px;
+      border: 1px solid #1f1f2c;
+    }
+
+    .tactical-table th {
+      background: #151520;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .tactical-table th.th-unarmored {
+      background: #1a1714;
+      color: #ff9955;
+      text-align: center;
+      border-bottom: 2px solid #ff5500;
+    }
+
+    .tactical-table th.th-armored {
+      background: #13171f;
+      color: #55b3ff;
+      text-align: center;
+      border-bottom: 2px solid #0099ff;
+    }
+
+    .tactical-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Tactical Damage Badges */
+    .dmg-badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .dmg-lethal { background: rgba(239, 68, 68, 0.2); border: 1px solid var(--red); color: #ff6b6b; box-shadow: 0 0 6px rgba(239, 68, 68, 0.3); }
+    .dmg-armor-lethal { background: rgba(168, 85, 247, 0.2); border: 1px solid var(--purple); color: #c084fc; box-shadow: 0 0 6px rgba(168, 85, 247, 0.3); }
+    .dmg-vhigh { background: rgba(249, 115, 22, 0.2); border: 1px solid #f97316; color: #fb923c; }
+    .dmg-high { background: rgba(245, 158, 11, 0.2); border: 1px solid var(--amber); color: #fcd34d; }
+    .dmg-mid { background: rgba(59, 130, 246, 0.2); border: 1px solid #3b82f6; color: #93c5fd; }
+    .dmg-low { background: rgba(6, 182, 212, 0.2); border: 1px solid #06b6d4; color: #67e8f9; }
+    .dmg-vlow { background: rgba(100, 116, 139, 0.2); border: 1px solid #64748b; color: #94a3b8; }
+    .dmg-tba { background: rgba(50, 50, 60, 0.2); border: 1px solid #444; color: #777; }
+
+    /* Section 3: Overview */
+    .overview-text {
+      color: #d1d5db;
+      font-size: 14px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    /* Section 4: Slots */
+    .slots-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    .slot-item {
+      background: #0c0c12;
+      border: 1px solid #1c1c28;
+      border-radius: 6px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .slot-item-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .slot-item-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Section 5: Intel */
+    .intel-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .intel-card {
+      background: #0d0d14;
+      border: 1px solid #1d1d2b;
+      border-left: 3px solid var(--accent);
+      border-radius: 4px;
+      padding: 12px 16px;
+    }
+
+    .intel-card-title {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .intel-card-desc {
+      font-size: 13px;
+      color: #d1d5db;
+      line-height: 1.6;
+    }
+
+    /* Section 6: Tactical Advisory */
+    .advisory-box {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .advisory-role-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .pros-cons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .pros-cons-grid { grid-template-columns: 1fr; }
+    }
+
+    .pros-box, .cons-box {
+      background: #0c0c12;
+      border-radius: 6px;
+      padding: 14px;
+    }
+
+    .pros-box { border: 1px solid rgba(16, 185, 129, 0.25); }
+    .cons-box { border: 1px solid rgba(239, 68, 68, 0.25); }
+
+    .box-title {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pros-title { color: var(--green); }
+    .cons-title { color: var(--red); }
+
+    .bullet-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .bullet-list li {
+      font-size: 12px;
+      color: #cbd5e1;
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+
+    .tips-card {
+      background: #09131a;
+      border: 1px solid var(--cyan);
+      border-radius: 6px;
+      padding: 14px;
+      font-size: 13px;
+      color: #e0f2fe;
+      line-height: 1.6;
+    }
+
+    /* COMPARISON MODAL SPECIFIC (ULTRA-WIDE EXPANDED CINEMATIC GUI) */
+    .compare-modal-container {
+      width: 96vw !important;
+      max-width: 1720px !important;
+      max-height: 94vh !important;
+    }
+
+    .compare-modal-container .modal-body {
+      padding: 24px 32px;
+    }
+
+    .compare-modal-container .tactical-table th, 
+    .compare-modal-container .tactical-table td {
+      padding: 10px 14px;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    .compare-modal-container .tactical-table td:first-child {
+      text-align: left;
+    }
+
+    
+    /* Free Comparison Weapon Selectors */
+    .freeze-weapon-select {
+      background: #171724;
+      border: 1px solid #35354a;
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+      max-width: 240px;
+      padding: 6px 12px;
+      font-size: 12px;
+      transition: all 0.2s;
+    }
+    .freeze-weapon-select:hover, .freeze-weapon-select:focus {
+      border-color: var(--cyan);
+      box-shadow: 0 0 8px var(--cyan-glow);
+    }
+    .freeze-weapon-select optgroup {
+      background: #0e0e16;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .freeze-weapon-select option {
+      background: #171724;
+      color: #fff;
+    }
+    .dock-slot-empty-clickable {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      color: var(--cyan);
+      font-size: 11px;
+      font-family: var(--font-mono);
+      transition: color 0.2s;
+    }
+    .dock-slot-empty-clickable:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    /* Freeze Pane for Comparison Modal */
+    .compare-freeze-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(13, 13, 20, 0.98);
+      backdrop-filter: blur(16px);
+      border-bottom: 2px solid var(--accent);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.9), 0 0 15px rgba(255, 85, 0, 0.2);
+    }
+
+    .comparison-vs-header {
+      display: grid;
+      grid-template-columns: 1fr 60px 1fr;
+      gap: 14px;
+      align-items: center;
+      padding: 10px 20px 14px 20px;
+      background: transparent;
+      border-bottom: none;
+    }
+
+    .vs-weapon-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #0d0d14;
+      border: 1px solid #232332;
+      border-radius: 8px;
+      padding: 8px 14px;
+      transition: border-color 0.2s;
+    }
+
+    .vs-weapon-card:hover {
+      border-color: #3f3f56;
+    }
+
+    .vs-weapon-img {
+      width: 120px;
+      height: 70px;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+    }
+
+    .vs-weapon-meta h3 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    .vs-badge-center {
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--accent);
+      text-shadow: 0 0 12px var(--accent-glow);
+    }
+
+    .metric-compare-card {
+      background: #111118;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .metric-title {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .metric-row {
+      display: grid;
+      grid-template-columns: 1fr 100px 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .metric-side {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .metric-val {
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .metric-bar-bg {
+      height: 8px;
+      background: #1f1f2c;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .metric-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+
+    .metric-diff-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 3px;
+      text-align: center;
+    }
+
+    .diff-winner { background: rgba(16, 185, 129, 0.2); color: var(--green); border: 1px solid var(--green); }
+    .diff-loser { background: rgba(239, 68, 68, 0.15); color: var(--red); border: 1px solid rgba(239, 68, 68, 0.4); }
+    .diff-equal { background: rgba(100, 116, 139, 0.2); color: #94a3b8; }
+
+    /* Verdict Card */
+    .verdict-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .verdict-card {
+      background: #0f131a;
+      border: 1px solid #1e2638;
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .verdict-card.highlight {
+      border-color: var(--accent);
+      box-shadow: 0 0 15px rgba(255, 85, 0, 0.15);
+    }
+
+    .verdict-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .verdict-winner-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .verdict-desc {
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+
+    
+    /* Ammo Comparison Section */
+    .ammo-compare-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media (max-width: 992px) {
+      .ammo-compare-layout { grid-template-columns: 1fr; }
+    }
+    .ammo-compare-card {
+      background: #0c0c12;
+      border: 1px solid #1f1f2c;
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .ammo-compare-header {
+      padding: 10px 14px;
+      background: #14141d;
+      border-bottom: 1px solid #1f1f2c;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .matchup-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .matchup-item {
+      background: #09090f;
+      border: 1px solid #1c1c28;
+      border-radius: 6px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-family: var(--font-mono);
+    }
+    .matchup-title {
+      font-size: 11px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .matchup-vs-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    
+    /* Author Badge & Footer */
+    .author-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 85, 0, 0.08);
+      border: 1px solid rgba(255, 85, 0, 0.3);
+      border-radius: 6px;
+      padding: 6px 14px;
+      color: #cbd5e1;
+      text-decoration: none;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      transition: all 0.25s ease;
+    }
+    .author-badge:hover {
+      background: var(--accent);
+      color: #000 !important;
+      border-color: var(--accent);
+      box-shadow: 0 0 14px var(--accent-glow);
+      transform: translateY(-1px);
+    }
+    .author-badge strong {
+      color: var(--accent);
+      font-weight: 700;
+      transition: color 0.2s;
+    }
+    .author-badge:hover strong {
+      color: #000 !important;
+    }
+
+    .app-footer {
+      border-top: 1px solid var(--border);
+      background: rgba(10, 10, 14, 0.9);
+      padding: 24px;
+      margin-top: 48px;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+    .app-footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.2s, text-shadow 0.2s;
+    }
+    .app-footer a:hover {
+      color: #fff;
+      text-shadow: 0 0 8px var(--accent-glow);
+      text-decoration: underline;
+    }
+
+    /* Toast Notification */
+    .toast-msg {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(15, 15, 22, 0.95);
+      border: 1px solid var(--accent);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8), 0 0 15px var(--accent-glow);
+      color: #fff;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      padding: 12px 18px;
+      border-radius: 6px;
+      z-index: 2000;
+      transform: translateY(-50px);
+      opacity: 0;
+      transition: all 0.3s;
+      pointer-events: none;
+    }
+
+    .toast-msg.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-msg"></div>
+
+  <!-- Header -->
+  <header>
+    <a href="#" class="brand">
+      <div class="brand-icon">CQB</div>
+      <div class="brand-text">
+        <h1><span>CQB HELL</span> // ARMORY DATABASE</h1>
+        <p id="ui-subtitle">TACTICAL WEAPON CODEX & HEAD-TO-HEAD COMPARISON</p>
+      </div>
+    </a>
+    <div class="header-actions">
+      <!-- Author Credit -->
+      <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer" class="author-badge" title="NiktoBlox Roblox Profile">
+        <span style="font-size: 14px;">🎖️</span>
+        <span id="ui-author-label">網站製作者：</span>
+        <strong>NiktoBlox</strong>
+      </a>
+      <!-- Language Switcher -->
+      <div class="lang-switcher">
+        <button class="lang-btn" onclick="setLanguage('en')">EN</button>
+        <button class="lang-btn active" onclick="setLanguage('tc')">繁中</button>
+        <button class="lang-btn" onclick="setLanguage('sc')">简中</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Toolbar -->
+    <section class="toolbar">
+      <!-- Main Category Tabs -->
+      <div class="category-tabs" id="main-cat-tabs">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- Subcategory Pills -->
+      <div class="subcat-pills" id="subcat-pills">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- Search & Sort Row -->
+      <div class="search-row">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+          <input type="text" id="search-input" placeholder="Search weapon name, caliber, IRL counterpart, fire mode...">
+        </div>
+        <div class="sort-box">
+          <label id="ui-sort-by">SORT BY:</label>
+          <select id="sort-select" onchange="renderWeaponsGrid()">
+            <option value="name">Name (A-Z)</option>
+            <option value="vel_desc">Muzzle Velocity (High → Low)</option>
+            <option value="mag_desc">Magazine Capacity (High → Low)</option>
+            <option value="start_ammo_desc">Starting Ammo (High → Low)</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="armory-stats-bar">
+      <div>
+        <span id="ui-showing">SHOWING:</span> 
+        <strong id="matched-count" style="color: var(--accent);">0</strong> / <span id="total-count">0</span> 
+        <span id="ui-weapons-unit">WEAPONS</span>
+      </div>
+      <div id="filter-state-text" style="color: var(--cyan);"></div>
+    </div>
+
+    <!-- Weapons Grid -->
+    <div class="weapons-grid" id="weapons-grid">
+      <!-- Cards rendered via JS -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+      <div>CQB HELL // ARMORY DATABASE & WEAPON COMPENDIUM</div>
+      <div>
+        <span id="ui-footer-author">網站製作者：</span>
+        <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer">NiktoBlox</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING COMPARISON DOCK -->
+  <aside class="compare-dock" id="compare-dock">
+    <div class="dock-title" id="ui-dock-title">⚖️ WEAPON COMPARISON (MAX 2)</div>
+    <div class="dock-slots">
+      <div class="dock-slot" id="dock-slot-0">
+        <span class="dock-slot-empty" id="ui-empty-slot-1">[ Slot 1: Empty ]</span>
+      </div>
+      <div class="dock-vs">VS</div>
+      <div class="dock-slot" id="dock-slot-1">
+        <span class="dock-slot-empty" id="ui-empty-slot-2">[ Slot 2: Empty ]</span>
+      </div>
+    </div>
+    <div class="dock-actions">
+      <button class="btn-launch-compare" id="btn-launch-compare" onclick="openComparisonModal()" disabled>
+        ⚡ START COMPARISON
+      </button>
+      <button class="btn-clear-dock" onclick="clearComparison()" title="Clear Selection">
+        ✕
+      </button>
+    </div>
+  </aside>
+
+  <!-- WEAPON DETAIL MODAL (THE 6 SECTIONS) -->
+  <div class="modal-overlay" id="weapon-modal" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <span id="modal-cat-icon" style="font-size: 20px;">🎯</span>
+          <div>
+            <h2 id="modal-weapon-name">FM-20</h2>
+            <div id="modal-weapon-subcat" style="font-family: var(--font-mono); font-size: 11px; color: var(--accent);">BATTLE RIFLE</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button class="card-compare-btn" id="modal-compare-btn" onclick="toggleCompareFromModal()">
+            ⚖️ <span id="modal-compare-text">Compare</span>
+          </button>
+          <button class="modal-close-btn" onclick="closeWeaponModal()">✕</button>
+        </div>
+      </div>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- WEAPON COMPARISON MODAL (WITH EXCEL-STYLE FREEZE PANE TOP BAR) -->
+  <div class="modal-overlay" id="compare-modal" onclick="closeCompareOnBackdrop(event)">
+    <div class="modal-container compare-modal-container">
+      <!-- Excel-style Freeze Header -->
+      <div class="compare-freeze-header" id="compare-freeze-header">
+        <div class="modal-header" style="border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding: 12px 20px; background: transparent;">
+          <div class="modal-header-title">
+            <span style="font-size: 20px;">⚖️</span>
+            <h2 style="font-size: 17px;"><span id="ui-compare-title">TACTICAL WEAPON COMPARISON</span> (2 WEAPONS)</h2>
+          </div>
+          <button class="modal-close-btn" onclick="closeCompareModal()">✕</button>
+        </div>
+        <div class="comparison-vs-header" id="comparison-vs-header-slot">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+      <div class="modal-body" id="compare-body-content" style="padding-top: 16px;">
+        <!-- Metrics, Specs, Ammo matrix, Verdicts rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Load database script -->
+  <script src="weapons_data.js"></script>
+
+  <!-- Main Application Logic -->
+  <script>
+    // State
+    let currentLang = 'tc'; // 'en', 'tc', 'sc'
+    let currentMainCat = 'all'; // 'all', 'primary', 'secondary', 'tertiary'
+    let currentSubCat = 'all'; // 'all' or subcategory key
+    let searchQuery = '';
+    let selectedForCompare = []; // max 2 weapon IDs
+
+    // UI Dictionaries
+    const I18N = {
+      en: {
+        subtitle: "TACTICAL WEAPON CODEX & HEAD-TO-HEAD COMPARISON",
+        authorLabel: "Created by: ",
+        searchPlaceholder: "Search weapon name, caliber, IRL counterpart, fire mode...",
+        sortBy: "SORT BY:",
+        showing: "SHOWING:",
+        weaponsUnit: "WEAPONS",
+        allCategory: "ALL ARSENAL",
+        viewDossier: "📖 View Dossier",
+        compare: "⚖️ Compare",
+        compared: "✓ Selected",
+        dockTitle: "⚖️ WEAPON COMPARISON (MAX 2)",
+        slot1Empty: "[ Slot 1: Empty ]",
+        slot2Empty: "[ Slot 2: Empty ]",
+        startCompare: "⚡ START COMPARISON",
+        sec1Title: "1. WEAPON PROFILE // SPECIFICATION",
+        sec2Title: "2. AMMO TYPE & DAMAGE MATRIX",
+        sec3Title: "3. DATA SHEET // WEAPON OVERVIEW",
+        sec4Title: "4. TACTICAL DATA // AVAILABLE SLOTS",
+        sec5Title: "5. FIELD INTEL // TRIVIA & FUN FACTS",
+        sec6Title: "6. TACTICAL ADVISORY // EXPERT RECOMMENDATION",
+        opticsSlot: "🎯 Available Slots",
+        unarmored: "Unarmored Targets",
+        armored: "Armored Targets",
+        head: "Head",
+        body: "Body",
+        limbs: "Limbs",
+        ammoType: "Ammo Type",
+        fireMode: "Fire Mode",
+        muzzleVelocity: "Muzzle Velocity",
+        magCap: "Magazine Cap",
+        startingAmmo: "Starting Ammo",
+        wallbang: "Wallbang",
+        canJam: "Can Jam",
+        jamChance: "Jam Chance",
+        contract: "Contract",
+        availability: "Availability",
+        combatRole: "Combat Role",
+        pros: "Tactical Advantages",
+        cons: "Operational Limitations",
+        loadoutTips: "Recommended Loadout & Combat Tips",
+        compareTitle: "TACTICAL HEAD-TO-HEAD COMPARISON",
+        ammoCompareTitle: "💥 AMMO TYPE & DAMAGE MATRIX // HEAD-TO-HEAD",
+        ammoDirectMatchup: "STANDARD AMMO DIRECT DAMAGE MATCHUP",
+        supportedAmmoCount: "Supported Ammo Types",
+        verdictCQB: "🏆 Close Quarters Combat (CQB) Winner",
+        verdictRange: "🔭 Medium / Long Range Precision Winner",
+        verdictReliability: "🛡️ Reliability & Capacity Winner",
+        verdictOverall: "🎯 AI Tactical Verdict & Loadout Summary",
+        limitToast: "Comparison is strictly limited to 2 weapons! Please remove one before adding another.",
+        addedToast: "Added to comparison list (2 weapons limit).",
+        noAmmoTable: "Ammo damage matrix currently under classification."
+      },
+      tc: {
+        subtitle: "CQB HELL 武器軍械庫圖鑑與雙武器即時對比分析系統",
+        authorLabel: "網站製作者：",
+        searchPlaceholder: "搜尋武器名稱、口徑、現實原型槍、射擊模式...",
+        sortBy: "排序依據：",
+        showing: "目前顯示：",
+        weaponsUnit: "把武器",
+        allCategory: "全部軍械",
+        viewDossier: "📖 查看檔案",
+        compare: "⚖️ 對比",
+        compared: "✓ 已選取",
+        dockTitle: "⚖️ 武器對比系統 (僅限 2 把)",
+        slot1Empty: "[ 槽位 1：點選武器加入 ]",
+        slot2Empty: "[ 槽位 2：點選武器加入 ]",
+        startCompare: "⚡ 開始武器對比",
+        sec1Title: "1. 武器個人資料 // 核心參數",
+        sec2Title: "2. 彈藥類型與傷害矩陣 (無護甲 / 有護甲)",
+        sec3Title: "3. DATA SHEET // 數據總覽與背景",
+        sec4Title: "4. TACTICAL DATA // 🔧 可用配件槽位",
+        sec5Title: "5. FIELD INTEL // 戰地情報與冷知識",
+        sec6Title: "6. 專家戰術建議 // 配件與打法思維",
+        opticsSlot: "🔧 可用改裝槽位",
+        unarmored: "無護甲目標 (Unarmored)",
+        armored: "有護甲目標 (Armored)",
+        head: "頭部",
+        body: "身體",
+        limbs: "四肢",
+        ammoType: "彈藥類型",
+        fireMode: "射擊模式",
+        muzzleVelocity: "槍口初速",
+        magCap: "彈匣容量",
+        startingAmmo: "初始備彈",
+        wallbang: "穿牆能力",
+        canJam: "是否會卡彈",
+        jamChance: "卡彈機率",
+        contract: "契約需求",
+        availability: "取得途徑",
+        combatRole: "戰術定位",
+        pros: "戰術優勢 (Pros)",
+        cons: "操作劣勢 (Cons)",
+        loadoutTips: "推薦配件配置與打法思維",
+        compareTitle: "雙武器即時戰術對比分析",
+        ammoCompareTitle: "💥 彈藥類型與傷害矩陣 // 雙武器火力深度對比",
+        ammoDirectMatchup: "標準子彈核心致死傷害直觀對比",
+        supportedAmmoCount: "支援彈藥種類數",
+        verdictCQB: "🏆 室內近戰 (CQB) 勝出者",
+        verdictRange: "🔭 中遠距離精確打擊勝出者",
+        verdictReliability: "🛡️ 可靠度與續航力勝出者",
+        verdictOverall: "🎯 戰術綜合裁決與選配推薦",
+        limitToast: "武器對比功能僅限 2 把武器！請先移除其中一把後再選擇。",
+        addedToast: "已加入武器對比清單 (上限 2 把)。",
+        noAmmoTable: "該武器彈藥矩陣數據保密整理中。"
+      },
+      sc: {
+        subtitle: "CQB HELL 武器军械库图鉴与双武器即时对比分析系统",
+        authorLabel: "网站制作者：",
+        searchPlaceholder: "搜索武器名称、口径、现实原型枪、射击模式...",
+        sortBy: "排序依据：",
+        showing: "当前显示：",
+        weaponsUnit: "把武器",
+        allCategory: "全部军械",
+        viewDossier: "📖 查看档案",
+        compare: "⚖️ 对比",
+        compared: "✓ 已选取",
+        dockTitle: "⚖️ 武器对比系统 (仅限 2 把)",
+        slot1Empty: "[ 槽位 1：点选武器加入 ]",
+        slot2Empty: "[ 槽位 2：点选武器加入 ]",
+        startCompare: "⚡ 开始武器对比",
+        sec1Title: "1. 武器个人资料 // 核心参数",
+        sec2Title: "2. 弹药类型与伤害矩阵 (无护甲 / 有护甲)",
+        sec3Title: "3. DATA SHEET // 数据总览与背景",
+        sec4Title: "4. TACTICAL DATA // 🔧 可用配件槽位",
+        sec5Title: "5. FIELD INTEL // 战地情报与冷知识",
+        sec6Title: "6. 专家战术建议 // 配件与打法思维",
+        opticsSlot: "🔧 可用改装槽位",
+        unarmored: "无护甲目标 (Unarmored)",
+        armored: "有护甲目标 (Armored)",
+        head: "头部",
+        body: "身体",
+        limbs: "四肢",
+        ammoType: "弹药类型",
+        fireMode: "射击模式",
+        muzzleVelocity: "枪口初速",
+        magCap: "弹匣容量",
+        startingAmmo: "初始备弹",
+        wallbang: "穿墙能力",
+        canJam: "是否会卡弹",
+        jamChance: "卡弹几率",
+        contract: "契约需求",
+        availability: "获取途径",
+        combatRole: "战术定位",
+        pros: "战术优势 (Pros)",
+        cons: "操作劣势 (Cons)",
+        loadoutTips: "推荐配件配置与打法思维",
+        compareTitle: "双武器即时战术对比分析",
+        ammoCompareTitle: "💥 弹药类型与伤害矩阵 // 双武器火力深度对比",
+        ammoDirectMatchup: "标准子弹核心致死伤害直观对比",
+        supportedAmmoCount: "支援弹药种类数",
+        verdictCQB: "🏆 室内近战 (CQB) 胜出者",
+        verdictRange: "🔭 中远距离精确打击胜出者",
+        verdictReliability: "🛡️ 可靠度与续航力胜出者",
+        verdictOverall: "🎯 战术综合裁决与选配推荐",
+        limitToast: "武器对比功能仅限 2 把武器！请先移除其中一把后再选择。",
+        addedToast: "已加入武器对比清单 (上限 2 把)。",
+        noAmmoTable: "该武器弹药矩阵数据保密整理中。"
+      }
+    };
+
+    // Subcategory mapping under main categories
+    const MAIN_CATS = ['all', 'primary', 'secondary', 'tertiary'];
+    const SUB_CATS = {
+      primary: ['assault_rifles', 'battle_rifles_dmr', 'sniper_anti_material', 'smg_pdw', 'shotguns', 'lmg_heavy'],
+      secondary: ['pistols', 'revolvers', 'machine_pistols', 'other_secondary'],
+      tertiary: ['special', 'event', 'staff']
+    };
+
+    // Toast function
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+
+    // Set Language
+    function setLanguage(lang) {
+      currentLang = lang;
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang) || (lang === 'tc' && btn.textContent.includes('繁')) || (lang === 'sc' && btn.textContent.includes('简')));
+      });
+
+      // Update static UI
+      const t = I18N[currentLang];
+      document.getElementById('ui-subtitle').textContent = t.subtitle;
+      document.getElementById('search-input').placeholder = t.searchPlaceholder;
+      document.getElementById('ui-sort-by').textContent = t.sortBy;
+      document.getElementById('ui-showing').textContent = t.showing;
+      document.getElementById('ui-weapons-unit').textContent = t.weaponsUnit;
+      document.getElementById('ui-dock-title').textContent = t.dockTitle;
+      document.getElementById('btn-launch-compare').textContent = t.startCompare;
+
+      renderMainCatTabs();
+      renderSubCatPills();
+      renderWeaponsGrid();
+      updateCompareDock();
+
+      // If modal is open, re-render it
+      const modal = document.getElementById('weapon-modal');
+      if (modal.classList.contains('active') && modal.dataset.weaponId) {
+        openWeaponModal(modal.dataset.weaponId);
+      }
+
+      // If comparison modal is open, re-render it
+      const compModal = document.getElementById('compare-modal');
+      if (compModal.classList.contains('active')) {
+        renderComparisonModal();
+      }
+    }
+
+    // Render Main Category Tabs
+    function renderMainCatTabs() {
+      const container = document.getElementById('main-cat-tabs');
+      container.innerHTML = '';
+      const t = I18N[currentLang];
+
+      MAIN_CATS.forEach(cat => {
+        let label = t.allCategory;
+        let count = CQB_DATA.weapons.length;
+        let emoji = '⚡';
+
+        if (cat !== 'all') {
+          const meta = CQB_DATA.categories[cat];
+          label = meta[currentLang];
+          emoji = meta.emoji;
+          count = CQB_DATA.weapons.filter(w => w.cat_main === cat).length;
+        }
+
+        const btn = document.createElement('button');
+        btn.className = `cat-tab ${currentMainCat === cat ? 'active' : ''}`;
+        btn.innerHTML = `<span>${emoji}</span> ${label} <span class="badge">${count}</span>`;
+        btn.onclick = () => {
+          currentMainCat = cat;
+          currentSubCat = 'all';
+          renderMainCatTabs();
+          renderSubCatPills();
+          renderWeaponsGrid();
+        };
+        container.appendChild(btn);
+      });
+    }
+
+    // Render Subcategory Pills
+    function renderSubCatPills() {
+      const container = document.getElementById('subcat-pills');
+      container.innerHTML = '';
+      const t = I18N[currentLang];
+
+      let availableSubs = [];
+      if (currentMainCat === 'all') {
+        availableSubs = [...SUB_CATS.primary, ...SUB_CATS.secondary, ...SUB_CATS.tertiary];
+      } else {
+        availableSubs = SUB_CATS[currentMainCat] || [];
+      }
+
+      // All pill
+      const allPill = document.createElement('button');
+      allPill.className = `subcat-pill ${currentSubCat === 'all' ? 'active' : ''}`;
+      allPill.textContent = t.allCategory;
+      allPill.onclick = () => {
+        currentSubCat = 'all';
+        renderSubCatPills();
+        renderWeaponsGrid();
+      };
+      container.appendChild(allPill);
+
+      availableSubs.forEach(sub => {
+        const meta = CQB_DATA.categories[sub];
+        if (!meta) return;
+        const count = CQB_DATA.weapons.filter(w => w.cat_sub === sub).length;
+
+        const pill = document.createElement('button');
+        pill.className = `subcat-pill ${currentSubCat === sub ? 'active' : ''}`;
+        pill.innerHTML = `<span>${meta.emoji}</span> ${meta[currentLang]} (${count})`;
+        pill.onclick = () => {
+          currentSubCat = sub;
+          renderSubCatPills();
+          renderWeaponsGrid();
+        };
+        container.appendChild(pill);
+      });
+    }
+
+    // Filter & Sort Weapons
+    function getFilteredWeapons() {
+      let list = CQB_DATA.weapons.filter(w => {
+        // Main Cat
+        if (currentMainCat !== 'all' && w.cat_main !== currentMainCat) return false;
+        // Sub Cat
+        if (currentSubCat !== 'all' && w.cat_sub !== currentSubCat) return false;
+        // Search
+        if (searchQuery) {
+          const q = searchQuery.toLowerCase();
+          const nameMatch = w.name.toLowerCase().includes(q);
+          const catMatch = (CQB_DATA.categories[w.cat_sub]?.[currentLang] || '').toLowerCase().includes(q);
+          const fireMatch = (w.stats.fire_mode[currentLang] || '').toLowerCase().includes(q);
+          const contractMatch = (w.stats.contract || '').toLowerCase().includes(q);
+          const intelMatch = w.intel.some(i => i.dossier[currentLang].toLowerCase().includes(q));
+          if (!nameMatch && !catMatch && !fireMatch && !contractMatch && !intelMatch) return false;
+        }
+        return true;
+      });
+
+      // Sort
+      const sortBy = document.getElementById('sort-select').value;
+      if (sortBy === 'name') {
+        list.sort((a, b) => a.name.localeCompare(b.name));
+      } else if (sortBy === 'vel_desc') {
+        list.sort((a, b) => (b.stats.vel_val || 0) - (a.stats.vel_val || 0));
+      } else if (sortBy === 'mag_desc') {
+        list.sort((a, b) => (b.stats.mag_val || 0) - (a.stats.mag_val || 0));
+      } else if (sortBy === 'start_ammo_desc') {
+        list.sort((a, b) => (b.stats.start_ammo_val || 0) - (a.stats.start_ammo_val || 0));
+      }
+
+      return list;
+    }
+
+    // Render Weapons Grid
+    function renderWeaponsGrid() {
+      const grid = document.getElementById('weapons-grid');
+      const list = getFilteredWeapons();
+      const t = I18N[currentLang];
+
+      document.getElementById('matched-count').textContent = list.length;
+      document.getElementById('total-count').textContent = CQB_DATA.weapons.length;
+
+      grid.innerHTML = '';
+
+      list.forEach(w => {
+        const isSelected = selectedForCompare.includes(w.id);
+        const subMeta = CQB_DATA.categories[w.cat_sub] || { emoji: '🎯', [currentLang]: w.cat_sub };
+
+        const card = document.createElement('div');
+        card.className = `weapon-card ${isSelected ? 'selected-for-compare' : ''}`;
+        card.innerHTML = `
+          <div class="card-tier-badge tier-${w.advisory.tier}">${w.advisory.tier}</div>
+          <button class="card-compare-btn ${isSelected ? 'active' : ''}" onclick="toggleCompareWeapon('${w.id}', event)">
+            ⚖️ <span>${isSelected ? t.compared : t.compare}</span>
+          </button>
+          <div class="card-img-box" onclick="openWeaponModal('${w.id}')" style="cursor: pointer;">
+            <img src="${w.image_local}" onerror="this.onerror=null; this.src='${w.image_remote}'" alt="${w.name}">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <div class="card-title">
+                <span>${w.name}</span>
+              </div>
+              <div class="card-cat-tag">
+                <span>${subMeta.emoji}</span> ${subMeta[currentLang]}
+              </div>
+            </div>
+            <div class="card-stats-grid">
+              <div class="stat-item">
+                <span class="stat-label">${t.fireMode}</span>
+                <span class="stat-val accent">${w.stats.fire_mode[currentLang]}</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">${t.muzzleVelocity}</span>
+                <span class="stat-val cyan">${w.stats.muzzle_velocity[currentLang]}</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">${t.magCap}</span>
+                <span class="stat-val green">${w.stats.magazine_cap[currentLang]}</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">${t.wallbang}</span>
+                <span class="stat-val">${w.stats.wallbang[currentLang]}</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <button class="btn-detail" onclick="openWeaponModal('${w.id}')">
+                ${t.viewDossier}
+              </button>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // Toggle Compare Weapon (Strict 2 weapons limit)
+    function toggleCompareWeapon(id, event) {
+      if (event) event.stopPropagation();
+      const t = I18N[currentLang];
+
+      const idx = selectedForCompare.indexOf(id);
+      if (idx !== -1) {
+        // Remove
+        selectedForCompare.splice(idx, 1);
+      } else {
+        // Add
+        if (selectedForCompare.length >= 2) {
+          showToast(t.limitToast);
+          return;
+        }
+        selectedForCompare.push(id);
+        showToast(t.addedToast);
+      }
+
+      updateCompareDock();
+      renderWeaponsGrid();
+
+      // Update modal compare button if open
+      const modal = document.getElementById('weapon-modal');
+      if (modal.classList.contains('active') && modal.dataset.weaponId === id) {
+        updateModalCompareBtn(id);
+      }
+    }
+
+    // Clear Comparison
+    function clearComparison() {
+      selectedForCompare = [];
+      updateCompareDock();
+      renderWeaponsGrid();
+    }
+
+    // Update Floating Compare Dock
+    function updateCompareDock() {
+      const dock = document.getElementById('compare-dock');
+      const t = I18N[currentLang];
+
+      if (selectedForCompare.length > 0) {
+        dock.classList.add('visible');
+      } else {
+        dock.classList.remove('visible');
+      }
+
+      // Slot 0
+      const slot0 = document.getElementById('dock-slot-0');
+      if (selectedForCompare[0]) {
+        const w0 = CQB_DATA.weapons.find(w => w.id === selectedForCompare[0]);
+        slot0.className = 'dock-slot filled';
+        slot0.innerHTML = `
+          <img class="dock-slot-img" src="${w0.image_local}" onerror="this.onerror=null; this.src='${w0.image_remote}'">
+          <div class="dock-slot-info">
+            <div class="dock-slot-name">${w0.name}</div>
+            <div class="dock-slot-cat">${CQB_DATA.categories[w0.cat_sub]?.[currentLang] || ''}</div>
+          </div>
+          <button class="dock-slot-remove" onclick="toggleCompareWeapon('${w0.id}')">✕</button>
+        `;
+      } else {
+        slot0.className = 'dock-slot';
+        slot0.innerHTML = `<span class="dock-slot-empty">${t.slot1Empty}</span>`;
+      }
+
+      // Slot 1
+      const slot1 = document.getElementById('dock-slot-1');
+      if (selectedForCompare[1]) {
+        const w1 = CQB_DATA.weapons.find(w => w.id === selectedForCompare[1]);
+        slot1.className = 'dock-slot filled';
+        slot1.innerHTML = `
+          <img class="dock-slot-img" src="${w1.image_local}" onerror="this.onerror=null; this.src='${w1.image_remote}'">
+          <div class="dock-slot-info">
+            <div class="dock-slot-name">${w1.name}</div>
+            <div class="dock-slot-cat">${CQB_DATA.categories[w1.cat_sub]?.[currentLang] || ''}</div>
+          </div>
+          <button class="dock-slot-remove" onclick="toggleCompareWeapon('${w1.id}')">✕</button>
+        `;
+      } else {
+        slot1.className = 'dock-slot';
+        slot1.innerHTML = `<span class="dock-slot-empty">${t.slot2Empty}</span>`;
+      }
+
+      // Launch button
+      const launchBtn = document.getElementById('btn-launch-compare');
+      launchBtn.disabled = selectedForCompare.length !== 2;
+      launchBtn.innerHTML = `⚡ ${t.startCompare} (${selectedForCompare.length}/2)`;
+    }
+
+    // OPEN WEAPON DETAIL MODAL (THE 6 SECTIONS)
+    function openWeaponModal(id) {
+      const w = CQB_DATA.weapons.find(x => x.id === id);
+      if (!w) return;
+
+      const modal = document.getElementById('weapon-modal');
+      modal.dataset.weaponId = id;
+      const t = I18N[currentLang];
+      const subMeta = CQB_DATA.categories[w.cat_sub] || { emoji: '🎯', [currentLang]: w.cat_sub };
+
+      document.getElementById('modal-cat-icon').textContent = subMeta.emoji;
+      document.getElementById('modal-weapon-name').textContent = w.name;
+      document.getElementById('modal-weapon-subcat').textContent = subMeta[currentLang].toUpperCase();
+
+      updateModalCompareBtn(id);
+
+      // Render 6 Sections
+      const body = document.getElementById('modal-body-content');
+
+      // 1. WEAPON PROFILE
+      const sec1 = `
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.sec1Title}</span>
+            <span class="modal-section-badge">TIER ${w.advisory.tier}</span>
+          </div>
+          <div class="modal-section-content">
+            <div class="profile-layout">
+              <div class="profile-img-card">
+                <img src="${w.image_local}" onerror="this.onerror=null; this.src='${w.image_remote}'" alt="${w.name}">
+              </div>
+              <div class="profile-info-grid">
+                <div class="profile-data-box">
+                  <span class="label">${t.fireMode}</span>
+                  <span class="value" style="color: var(--accent);">${w.stats.fire_mode[currentLang]}</span>
+                </div>
+                <div class="profile-data-box">
+                  <span class="label">${t.muzzleVelocity}</span>
+                  <span class="value" style="color: var(--cyan);">${w.stats.muzzle_velocity[currentLang]}</span>
+                </div>
+                <div class="profile-data-box">
+                  <span class="label">${t.magCap}</span>
+                  <span class="value" style="color: var(--green);">${w.stats.magazine_cap[currentLang]}</span>
+                </div>
+                <div class="profile-data-box">
+                  <span class="label">${t.startingAmmo}</span>
+                  <span class="value">${w.stats.starting_ammo[currentLang]}</span>
+                </div>
+                <div class="profile-data-box">
+                  <span class="label">${t.wallbang}</span>
+                  <span class="value">${w.stats.wallbang[currentLang]}</span>
+                </div>
+                <div class="profile-data-box">
+                  <span class="label">${t.canJam} / ${t.jamChance}</span>
+                  <span class="value">${w.stats.can_jam[currentLang]} (${w.stats.jam_chance[currentLang]})</span>
+                </div>
+                <div class="profile-data-box" style="grid-column: span 2;">
+                  <span class="label">${t.contract} / ${t.availability}</span>
+                  <span class="value" style="color: #fbbf24;">${w.stats.contract || w.stats.availability || 'Default Unlocked'}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      // 2. AMMO MATRIX TABLE
+      let ammoTableHtml = '';
+      if (w.ammo_matrix && w.ammo_matrix.length > 0) {
+        ammoTableHtml = `
+          <div class="table-responsive">
+            <table class="tactical-table">
+              <thead>
+                <tr>
+                  <th rowspan="2">${t.ammoType}</th>
+                  <th colspan="3" class="th-unarmored">${t.unarmored}</th>
+                  <th colspan="3" class="th-armored">${t.armored}</th>
+                </tr>
+                <tr>
+                  <th>${t.head}</th>
+                  <th>${t.body}</th>
+                  <th>${t.limbs}</th>
+                  <th>${t.head}</th>
+                  <th>${t.body}</th>
+                  <th>${t.limbs}</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${w.ammo_matrix.map(row => `
+                  <tr>
+                    <td><strong>${row.ammo_type[currentLang]}</strong></td>
+                    <td>${renderDamageBadge(row.unarmored.head[currentLang])}</td>
+                    <td>${renderDamageBadge(row.unarmored.body[currentLang])}</td>
+                    <td>${renderDamageBadge(row.unarmored.limbs[currentLang])}</td>
+                    <td>${renderDamageBadge(row.armored.head[currentLang])}</td>
+                    <td>${renderDamageBadge(row.armored.body[currentLang])}</td>
+                    <td>${renderDamageBadge(row.armored.limbs[currentLang])}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      } else {
+        ammoTableHtml = `<p style="color: var(--text-dim); font-family: var(--font-mono); font-size: 13px;">${t.noAmmoTable}</p>`;
+      }
+
+      const sec2 = `
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.sec2Title}</span>
+            <span class="modal-section-badge">BALLISTICS MATRIX</span>
+          </div>
+          <div class="modal-section-content">
+            ${ammoTableHtml}
+          </div>
+        </div>
+      `;
+
+      // 3. WEAPON OVERVIEW
+      const sec3 = `
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.sec3Title}</span>
+            <span class="modal-section-badge">SYSTEM: ACTIVE</span>
+          </div>
+          <div class="modal-section-content">
+            <p class="overview-text">${w.overview[currentLang]}</p>
+          </div>
+        </div>
+      `;
+
+      // 4. AVAILABLE SLOTS
+      let slotsHtml = '';
+      if (w.slots && w.slots.length > 0) {
+        slotsHtml = `
+          <div class="slots-grid">
+            ${w.slots.map(s => `
+              <div class="slot-item">
+                <div class="slot-item-title">${s.name[currentLang]}</div>
+                <div class="slot-item-desc">${s.desc[currentLang]}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else {
+        slotsHtml = `<p style="color: var(--text-dim); font-family: var(--font-mono); font-size: 13px;">No modular attachments available for this specialized platform.</p>`;
+      }
+
+      const sec4 = `
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.sec4Title}</span>
+            <span class="modal-section-badge">ATTACHMENTS</span>
+          </div>
+          <div class="modal-section-content">
+            ${slotsHtml}
+          </div>
+        </div>
+      `;
+
+      // 5. FIELD INTEL / TRIVIA
+      let intelHtml = '';
+      if (w.intel && w.intel.length > 0) {
+        intelHtml = `
+          <div class="intel-list">
+            ${w.intel.map(item => `
+              <div class="intel-card">
+                <div class="intel-card-title">▶ ${item.title[currentLang]}</div>
+                <div class="intel-card-desc">${item.dossier[currentLang]}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else {
+        intelHtml = `<p style="color: var(--text-dim); font-family: var(--font-mono); font-size: 13px;">Classified background records.</p>`;
+      }
+
+      const sec5 = `
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.sec5Title}</span>
+            <span class="modal-section-badge">CLASSIFIED DOSSIER</span>
+          </div>
+          <div class="modal-section-content">
+            ${intelHtml}
+          </div>
+        </div>
+      `;
+
+      // 6. TACTICAL ADVISORY
+      const adv = w.advisory;
+      const sec6 = `
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.sec6Title}</span>
+            <span class="modal-section-badge">AI VERDICT</span>
+          </div>
+          <div class="modal-section-content">
+            <div class="advisory-box">
+              <div class="advisory-role-row">
+                <span style="font-family: var(--font-mono); font-size: 13px; color: var(--text-dim);">${t.combatRole}:</span>
+                <span style="font-family: var(--font-mono); font-size: 14px; font-weight: 700; color: var(--accent); background: var(--accent-dim); padding: 4px 10px; border-radius: 4px; border: 1px solid var(--accent);">
+                  ${adv.role[currentLang]}
+                </span>
+              </div>
+              <div class="pros-cons-grid">
+                <div class="pros-box">
+                  <div class="box-title pros-title">✓ ${t.pros}</div>
+                  <ul class="bullet-list">
+                    ${adv.pros[currentLang].map(p => `<li><span>🟢</span> ${p}</li>`).join('')}
+                  </ul>
+                </div>
+                <div class="cons-box">
+                  <div class="box-title cons-title">✕ ${t.cons}</div>
+                  <ul class="bullet-list">
+                    ${adv.cons[currentLang].map(c => `<li><span>🔴</span> ${c}</li>`).join('')}
+                  </ul>
+                </div>
+              </div>
+              <div class="tips-card">
+                <strong>💡 ${t.loadoutTips}:</strong>
+                <p style="margin-top: 6px;">${adv.tips[currentLang]}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      body.innerHTML = sec1 + sec2 + sec3 + sec4 + sec5 + sec6;
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function updateModalCompareBtn(id) {
+      const btn = document.getElementById('modal-compare-btn');
+      const isSelected = selectedForCompare.includes(id);
+      const t = I18N[currentLang];
+      btn.className = `card-compare-btn ${isSelected ? 'active' : ''}`;
+      document.getElementById('modal-compare-text').textContent = isSelected ? t.compared : t.compare;
+    }
+
+    function toggleCompareFromModal() {
+      const modal = document.getElementById('weapon-modal');
+      const id = modal.dataset.weaponId;
+      if (id) {
+        toggleCompareWeapon(id);
+      }
+    }
+
+    function closeWeaponModal() {
+      document.getElementById('weapon-modal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function closeModalOnBackdrop(e) {
+      if (e.target.id === 'weapon-modal') closeWeaponModal();
+    }
+
+    // Helper: Damage badge renderer
+    function renderDamageBadge(val) {
+      if (!val) return `<span class="dmg-badge dmg-tba">TBA</span>`;
+      const s = val.toLowerCase();
+      let cls = 'dmg-tba';
+      if (s.includes('armor lethal') || s.includes('穿甲')) cls = 'dmg-armor-lethal';
+      else if (s.includes('lethal') || s.includes('致命')) cls = 'dmg-lethal';
+      else if (s.includes('very high') || s.includes('非常高')) cls = 'dmg-vhigh';
+      else if (s.includes('high') || s.includes('高')) cls = 'dmg-high';
+      else if (s.includes('mid') || s.includes('中')) cls = 'dmg-mid';
+      else if (s.includes('very low') || s.includes('極低') || s.includes('极低')) cls = 'dmg-vlow';
+      else if (s.includes('low') || s.includes('低')) cls = 'dmg-low';
+
+      return `<span class="dmg-badge ${cls}">${val}</span>`;
+    }
+
+    // OPEN COMPARISON MODAL (HEAD-TO-HEAD FOR 2 WEAPONS)
+    function openComparisonModal() {
+      if (selectedForCompare.length !== 2) return;
+      renderComparisonModal();
+      document.getElementById('compare-modal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCompareModal() {
+      document.getElementById('compare-modal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function closeCompareOnBackdrop(e) {
+      if (e.target.id === 'compare-modal') closeCompareModal();
+    }
+
+    
+    // Free Comparison Helpers: Switch any weapon across all series
+    function renderWeaponSelectOptions(selectedId) {
+      let out = '';
+      const mainCats = ['primary', 'secondary', 'tertiary'];
+      mainCats.forEach(mainCat => {
+        const subs = SUB_CATS[mainCat] || [];
+        subs.forEach(sub => {
+          const subMeta = CQB_DATA.categories[sub];
+          const list = CQB_DATA.weapons.filter(w => w.cat_sub === sub);
+          if (list.length === 0) return;
+          out += `<optgroup label="${subMeta.emoji} ${subMeta[currentLang]}">`;
+          list.forEach(w => {
+            const isSel = w.id === selectedId ? 'selected' : '';
+            out += `<option value="${w.id}" ${isSel}>${w.name} [Tier ${w.advisory.tier}]</option>`;
+          });
+          out += `</optgroup>`;
+        });
+      });
+      return out;
+    }
+
+    function changeCompareWeapon(slotIndex, newId) {
+      if (!newId) return;
+      selectedForCompare[slotIndex] = newId;
+      updateCompareDock();
+      renderWeaponsGrid();
+      renderComparisonModal();
+    }
+
+    function renderComparisonModal() {
+      const wA = CQB_DATA.weapons.find(w => w.id === selectedForCompare[0]);
+      const wB = CQB_DATA.weapons.find(w => w.id === selectedForCompare[1]);
+      if (!wA || !wB) return;
+
+      const t = I18N[currentLang];
+      const body = document.getElementById('compare-body-content');
+
+      // Metric comparisons
+      // 1. Muzzle Velocity
+      const velA = wA.stats.vel_val || 0;
+      const velB = wB.stats.vel_val || 0;
+      const maxVel = Math.max(velA, velB, 1000);
+      const diffVel = velA - velB;
+
+      // 2. Magazine Capacity
+      const magA = wA.stats.mag_val || 0;
+      const magB = wB.stats.mag_val || 0;
+      const maxMag = Math.max(magA, magB, 50);
+      const diffMag = magA - magB;
+
+      // 3. Starting Ammo
+      const ammoA = wA.stats.start_ammo_val || 0;
+      const ammoB = wB.stats.start_ammo_val || 0;
+      const maxAmmo = Math.max(ammoA, ammoB, 300);
+      const diffAmmo = ammoA - ammoB;
+
+      // Determine CQB & Range winners
+      let cqbWinner = wA;
+      let cqbReason = "";
+      if ((wA.cat_sub === 'shotguns' || wA.cat_sub === 'machine_pistols') && (wB.cat_sub !== 'shotguns')) {
+        cqbWinner = wA;
+        cqbReason = `${wA.name} dominates point-blank breaching with devastating close-range burst DPS.`;
+      } else if (wB.cat_sub === 'shotguns' || wB.cat_sub === 'machine_pistols') {
+        cqbWinner = wB;
+        cqbReason = `${wB.name} delivers superior burst lethality and room-clearing power in tight quarters.`;
+      } else if (magA > magB && (wA.stats.fire_mode.en || '').includes('Auto')) {
+        cqbWinner = wA;
+        cqbReason = `Larger magazine capacity (${magA} vs ${magB}) and full-auto capability provide continuous fire.`;
+      } else if (magB > magA && (wB.stats.fire_mode.en || '').includes('Auto')) {
+        cqbWinner = wB;
+        cqbReason = `Superior magazine sustain (${magB} vs ${magA}) allows handling multiple hostiles without reloading.`;
+      } else {
+        cqbWinner = velA > velB ? wA : wB;
+        cqbReason = `Higher ballistic velocity and rapid weapon handling provide quicker response in hallway ambushes.`;
+      }
+
+      let rangeWinner = velA >= velB ? wA : wB;
+      let rangeReason = `${rangeWinner.name} features higher muzzle velocity (${Math.max(velA, velB)} M/S) ensuring flatter ballistic trajectories and surgical precision.`;
+
+      let relWinner = wA;
+      if (wA.stats.can_jam.en === 'NO' && wB.stats.can_jam.en === 'YES') {
+        relWinner = wA;
+      } else if (wB.stats.can_jam.en === 'NO' && wA.stats.can_jam.en === 'YES') {
+        relWinner = wB;
+      } else {
+        relWinner = ammoA >= ammoB ? wA : wB;
+      }
+      let relReason = `${relWinner.name} provides superior combat reliability with minimal jam risk and robust ammo supply.`;
+
+            // 1. Render Freeze Header (Excel Freeze Pane)
+      const freezeSlot = document.getElementById('comparison-vs-header-slot');
+      if (freezeSlot) {
+        freezeSlot.innerHTML = `
+          <div class="vs-weapon-card">
+            <img class="vs-weapon-img" src="${wA.image_local}" onerror="this.onerror=null; this.src='${wA.image_remote}'">
+            <div class="vs-weapon-meta" style="flex: 1;">
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+                <h3>${wA.name}</h3>
+                <select class="freeze-weapon-select" title="更換對比武器 / Switch Weapon" onchange="changeCompareWeapon(0, this.value)">
+                  ${renderWeaponSelectOptions(wA.id)}
+                </select>
+              </div>
+              <div style="font-family: var(--font-mono); font-size: 11px; color: var(--accent); margin-top: 2px;">${CQB_DATA.categories[wA.cat_sub]?.[currentLang]}</div>
+              <div style="margin-top: 4px;"><span class="card-tier-badge tier-${wA.advisory.tier}" style="position: static;">TIER ${wA.advisory.tier}</span></div>
+            </div>
+          </div>
+          <div class="vs-badge-center">VS</div>
+          <div class="vs-weapon-card">
+            <img class="vs-weapon-img" src="${wB.image_local}" onerror="this.onerror=null; this.src='${wB.image_remote}'">
+            <div class="vs-weapon-meta" style="flex: 1;">
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+                <h3>${wB.name}</h3>
+                <select class="freeze-weapon-select" title="更換對比武器 / Switch Weapon" onchange="changeCompareWeapon(1, this.value)">
+                  ${renderWeaponSelectOptions(wB.id)}
+                </select>
+              </div>
+              <div style="font-family: var(--font-mono); font-size: 11px; color: var(--cyan); margin-top: 2px;">${CQB_DATA.categories[wB.cat_sub]?.[currentLang]}</div>
+              <div style="margin-top: 4px;"><span class="card-tier-badge tier-${wB.advisory.tier}" style="position: static;">TIER ${wB.advisory.tier}</span></div>
+            </div>
+          </div>
+        `;
+      }
+
+      body.innerHTML = `
+        <!-- Metric 1: Muzzle Velocity -->
+        <div class="metric-compare-card">
+          <div class="metric-title">${t.muzzleVelocity}</div>
+          <div class="metric-row">
+            <div class="metric-side">
+              <div class="metric-val" style="color: var(--accent);">${wA.stats.muzzle_velocity[currentLang]}</div>
+              <div class="metric-bar-bg">
+                <div class="metric-bar-fill" style="width: ${(velA / maxVel) * 100}%; background: var(--accent);"></div>
+              </div>
+            </div>
+            <div style="text-align: center;">
+              <span class="metric-diff-badge ${diffVel > 0 ? 'diff-winner' : (diffVel < 0 ? 'diff-loser' : 'diff-equal')}">
+                ${diffVel > 0 ? '+' + diffVel + ' M/S' : (diffVel < 0 ? diffVel + ' M/S' : '=')}
+              </span>
+            </div>
+            <div class="metric-side" style="text-align: right;">
+              <div class="metric-val" style="color: var(--cyan);">${wB.stats.muzzle_velocity[currentLang]}</div>
+              <div class="metric-bar-bg">
+                <div class="metric-bar-fill" style="width: ${(velB / maxVel) * 100}%; background: var(--cyan); margin-left: auto;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metric 2: Magazine Capacity -->
+        <div class="metric-compare-card">
+          <div class="metric-title">${t.magCap}</div>
+          <div class="metric-row">
+            <div class="metric-side">
+              <div class="metric-val" style="color: var(--accent);">${wA.stats.magazine_cap[currentLang]}</div>
+              <div class="metric-bar-bg">
+                <div class="metric-bar-fill" style="width: ${(magA / maxMag) * 100}%; background: var(--accent);"></div>
+              </div>
+            </div>
+            <div style="text-align: center;">
+              <span class="metric-diff-badge ${diffMag > 0 ? 'diff-winner' : (diffMag < 0 ? 'diff-loser' : 'diff-equal')}">
+                ${diffMag > 0 ? '+' + diffMag + ' RNDs' : (diffMag < 0 ? diffMag + ' RNDs' : '=')}
+              </span>
+            </div>
+            <div class="metric-side" style="text-align: right;">
+              <div class="metric-val" style="color: var(--cyan);">${wB.stats.magazine_cap[currentLang]}</div>
+              <div class="metric-bar-bg">
+                <div class="metric-bar-fill" style="width: ${(magB / maxMag) * 100}%; background: var(--cyan); margin-left: auto;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metric 3: Starting Ammo -->
+        <div class="metric-compare-card">
+          <div class="metric-title">${t.startingAmmo}</div>
+          <div class="metric-row">
+            <div class="metric-side">
+              <div class="metric-val" style="color: var(--accent);">${wA.stats.starting_ammo[currentLang]}</div>
+              <div class="metric-bar-bg">
+                <div class="metric-bar-fill" style="width: ${(ammoA / maxAmmo) * 100}%; background: var(--accent);"></div>
+              </div>
+            </div>
+            <div style="text-align: center;">
+              <span class="metric-diff-badge ${diffAmmo > 0 ? 'diff-winner' : (diffAmmo < 0 ? 'diff-loser' : 'diff-equal')}">
+                ${diffAmmo > 0 ? '+' + diffAmmo : (diffAmmo < 0 ? diffAmmo : '=')}
+              </span>
+            </div>
+            <div class="metric-side" style="text-align: right;">
+              <div class="metric-val" style="color: var(--cyan);">${wB.stats.starting_ammo[currentLang]}</div>
+              <div class="metric-bar-bg">
+                <div class="metric-bar-fill" style="width: ${(ammoB / maxAmmo) * 100}%; background: var(--cyan); margin-left: auto;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specifications Side-by-Side Table -->
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">📊 SPECIFICATION MATRIX</span>
+          </div>
+          <div class="modal-section-content" style="padding: 0;">
+            <table class="tactical-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">${t.head} / Spec</th>
+                  <th style="width: 35%; color: var(--accent);">${wA.name}</th>
+                  <th style="width: 35%; color: var(--cyan);">${wB.name}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>${t.fireMode}</td>
+                  <td><strong>${wA.stats.fire_mode[currentLang]}</strong></td>
+                  <td><strong>${wB.stats.fire_mode[currentLang]}</strong></td>
+                </tr>
+                <tr>
+                  <td>${t.wallbang}</td>
+                  <td>${wA.stats.wallbang[currentLang]}</td>
+                  <td>${wB.stats.wallbang[currentLang]}</td>
+                </tr>
+                <tr>
+                  <td>${t.canJam} / ${t.jamChance}</td>
+                  <td>${wA.stats.can_jam[currentLang]} (${wA.stats.jam_chance[currentLang]})</td>
+                  <td>${wB.stats.can_jam[currentLang]} (${wB.stats.jam_chance[currentLang]})</td>
+                </tr>
+                <tr>
+                  <td>${t.combatRole}</td>
+                  <td>${wA.advisory.role[currentLang]}</td>
+                  <td>${wB.advisory.role[currentLang]}</td>
+                </tr>
+                <tr>
+                  <td>${t.opticsSlot}</td>
+                  <td>${wA.slots.map(s => s.name[currentLang]).join(', ') || 'None'}</td>
+                  <td>${wB.slots.map(s => s.name[currentLang]).join(', ') || 'None'}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        
+        <!-- AMMO TYPE & DAMAGE MATRIX COMPARISON SECTION -->
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.ammoCompareTitle}</span>
+            <span class="modal-section-badge">AMMO & BALLISTICS</span>
+          </div>
+          <div class="modal-section-content">
+            <!-- Quick Standard Ammo Matchup -->
+            <div style="font-family: var(--font-mono); font-size: 11px; color: var(--accent); font-weight: 700; margin-bottom: 10px; letter-spacing: 1px;">
+              ⚡ ${t.ammoDirectMatchup}
+            </div>
+            ${(() => {
+              const stdA = wA.ammo_matrix ? wA.ammo_matrix.find(r => r.ammo_type.en.toLowerCase().includes('standard')) || wA.ammo_matrix[0] : null;
+              const stdB = wB.ammo_matrix ? wB.ammo_matrix.find(r => r.ammo_type.en.toLowerCase().includes('standard')) || wB.ammo_matrix[0] : null;
+              if (!stdA && !stdB) return `<p style="color: var(--text-dim); font-size: 12px;">${t.noAmmoTable}</p>`;
+              return `
+                <div class="matchup-grid">
+                  <div class="matchup-item">
+                    <span class="matchup-title">${t.unarmored} // ${t.head}</span>
+                    <div class="matchup-vs-row">
+                      <span style="color: var(--accent);">${stdA ? renderDamageBadge(stdA.unarmored.head[currentLang]) : 'N/A'}</span>
+                      <span style="color: #666; font-size: 10px;">VS</span>
+                      <span style="color: var(--cyan);">${stdB ? renderDamageBadge(stdB.unarmored.head[currentLang]) : 'N/A'}</span>
+                    </div>
+                  </div>
+                  <div class="matchup-item">
+                    <span class="matchup-title">${t.unarmored} // ${t.body}</span>
+                    <div class="matchup-vs-row">
+                      <span style="color: var(--accent);">${stdA ? renderDamageBadge(stdA.unarmored.body[currentLang]) : 'N/A'}</span>
+                      <span style="color: #666; font-size: 10px;">VS</span>
+                      <span style="color: var(--cyan);">${stdB ? renderDamageBadge(stdB.unarmored.body[currentLang]) : 'N/A'}</span>
+                    </div>
+                  </div>
+                  <div class="matchup-item">
+                    <span class="matchup-title">${t.unarmored} // ${t.limbs}</span>
+                    <div class="matchup-vs-row">
+                      <span style="color: var(--accent);">${stdA ? renderDamageBadge(stdA.unarmored.limbs[currentLang]) : 'N/A'}</span>
+                      <span style="color: #666; font-size: 10px;">VS</span>
+                      <span style="color: var(--cyan);">${stdB ? renderDamageBadge(stdB.unarmored.limbs[currentLang]) : 'N/A'}</span>
+                    </div>
+                  </div>
+                  <div class="matchup-item">
+                    <span class="matchup-title">${t.armored} // ${t.body}</span>
+                    <div class="matchup-vs-row">
+                      <span style="color: var(--accent);">${stdA ? renderDamageBadge(stdA.armored.body[currentLang]) : 'N/A'}</span>
+                      <span style="color: #666; font-size: 10px;">VS</span>
+                      <span style="color: var(--cyan);">${stdB ? renderDamageBadge(stdB.armored.body[currentLang]) : 'N/A'}</span>
+                    </div>
+                  </div>
+                </div>
+              `;
+            })()}
+
+            <!-- Side-by-Side Complete Ammo Tables -->
+            <div class="ammo-compare-layout">
+              <!-- Weapon A Table -->
+              <div class="ammo-compare-card">
+                <div class="ammo-compare-header">
+                  <span style="color: var(--accent);">${wA.name}</span>
+                  <span style="font-size: 11px; color: var(--text-dim);">${wA.ammo_matrix ? wA.ammo_matrix.length : 0} ${t.supportedAmmoCount}</span>
+                </div>
+                <div class="table-responsive">
+                  ${wA.ammo_matrix && wA.ammo_matrix.length > 0 ? `
+                    <table class="tactical-table">
+                      <thead>
+                        <tr>
+                          <th rowspan="2">${t.ammoType}</th>
+                          <th colspan="3" class="th-unarmored">${t.unarmored}</th>
+                          <th colspan="3" class="th-armored">${t.armored}</th>
+                        </tr>
+                        <tr>
+                          <th>${t.head}</th><th>${t.body}</th><th>${t.limbs}</th>
+                          <th>${t.head}</th><th>${t.body}</th><th>${t.limbs}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${wA.ammo_matrix.map(row => `
+                          <tr>
+                            <td><strong>${row.ammo_type[currentLang]}</strong></td>
+                            <td>${renderDamageBadge(row.unarmored.head[currentLang])}</td>
+                            <td>${renderDamageBadge(row.unarmored.body[currentLang])}</td>
+                            <td>${renderDamageBadge(row.unarmored.limbs[currentLang])}</td>
+                            <td>${renderDamageBadge(row.armored.head[currentLang])}</td>
+                            <td>${renderDamageBadge(row.armored.body[currentLang])}</td>
+                            <td>${renderDamageBadge(row.armored.limbs[currentLang])}</td>
+                          </tr>
+                        `).join('')}
+                      </tbody>
+                    </table>
+                  ` : `<p style="padding: 16px; color: var(--text-dim); font-size: 12px;">${t.noAmmoTable}</p>`}
+                </div>
+              </div>
+
+              <!-- Weapon B Table -->
+              <div class="ammo-compare-card">
+                <div class="ammo-compare-header">
+                  <span style="color: var(--cyan);">${wB.name}</span>
+                  <span style="font-size: 11px; color: var(--text-dim);">${wB.ammo_matrix ? wB.ammo_matrix.length : 0} ${t.supportedAmmoCount}</span>
+                </div>
+                <div class="table-responsive">
+                  ${wB.ammo_matrix && wB.ammo_matrix.length > 0 ? `
+                    <table class="tactical-table">
+                      <thead>
+                        <tr>
+                          <th rowspan="2">${t.ammoType}</th>
+                          <th colspan="3" class="th-unarmored">${t.unarmored}</th>
+                          <th colspan="3" class="th-armored">${t.armored}</th>
+                        </tr>
+                        <tr>
+                          <th>${t.head}</th><th>${t.body}</th><th>${t.limbs}</th>
+                          <th>${t.head}</th><th>${t.body}</th><th>${t.limbs}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${wB.ammo_matrix.map(row => `
+                          <tr>
+                            <td><strong>${row.ammo_type[currentLang]}</strong></td>
+                            <td>${renderDamageBadge(row.unarmored.head[currentLang])}</td>
+                            <td>${renderDamageBadge(row.unarmored.body[currentLang])}</td>
+                            <td>${renderDamageBadge(row.unarmored.limbs[currentLang])}</td>
+                            <td>${renderDamageBadge(row.armored.head[currentLang])}</td>
+                            <td>${renderDamageBadge(row.armored.body[currentLang])}</td>
+                            <td>${renderDamageBadge(row.armored.limbs[currentLang])}</td>
+                          </tr>
+                        `).join('')}
+                      </tbody>
+                    </table>
+                  ` : `<p style="padding: 16px; color: var(--text-dim); font-size: 12px;">${t.noAmmoTable}</p>`}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tactical Verdicts -->
+        <div class="modal-section">
+          <div class="modal-section-header">
+            <span class="modal-section-title">${t.verdictOverall}</span>
+            <span class="modal-section-badge">DECISION MATRIX</span>
+          </div>
+          <div class="modal-section-content">
+            <div class="verdict-grid">
+              <div class="verdict-card highlight">
+                <div class="verdict-badge">${t.verdictCQB}</div>
+                <div class="verdict-winner-name">${cqbWinner.name}</div>
+                <div class="verdict-desc">${cqbReason}</div>
+              </div>
+              <div class="verdict-card">
+                <div class="verdict-badge">${t.verdictRange}</div>
+                <div class="verdict-winner-name">${rangeWinner.name}</div>
+                <div class="verdict-desc">${rangeReason}</div>
+              </div>
+              <div class="verdict-card">
+                <div class="verdict-badge">${t.verdictReliability}</div>
+                <div class="verdict-winner-name">${relWinner.name}</div>
+                <div class="verdict-desc">${relReason}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // Init
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('search-input').addEventListener('input', (e) => {
+        searchQuery = e.target.value.trim();
+        renderWeaponsGrid();
+      });
+
+      setLanguage('tc'); // default to Traditional Chinese as requested
+    });
+  </script>
+</body>
+</html>
