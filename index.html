@@ -2058,7 +2058,7 @@
             ⚖️ <span>${isSelected ? t.compared : t.compare}</span>
           </button>
           <div class="card-img-box" onclick="openWeaponModal('${w.id}')" style="cursor: pointer;">
-            <img src="${w.image_local}" onerror="this.onerror=null; this.src='${w.image_remote}'" alt="${w.name}">
+            <img src="${w.image_local}" onerror="this.onerror=null; this.src='images/placeholder.svg';" alt="${w.name}">
           </div>
           <div class="card-content">
             <div class="card-header">
@@ -2151,7 +2151,7 @@
         const w0 = CQB_DATA.weapons.find(w => w.id === selectedForCompare[0]);
         slot0.className = 'dock-slot filled';
         slot0.innerHTML = `
-          <img class="dock-slot-img" src="${w0.image_local}" onerror="this.onerror=null; this.src='${w0.image_remote}'">
+          <img class="dock-slot-img" src="${w0.image_local}" onerror="this.onerror=null; this.src='images/placeholder.svg';">
           <div class="dock-slot-info">
             <div class="dock-slot-name">${w0.name}</div>
             <div class="dock-slot-cat">${CQB_DATA.categories[w0.cat_sub]?.[currentLang] || ''}</div>
@@ -2169,7 +2169,7 @@
         const w1 = CQB_DATA.weapons.find(w => w.id === selectedForCompare[1]);
         slot1.className = 'dock-slot filled';
         slot1.innerHTML = `
-          <img class="dock-slot-img" src="${w1.image_local}" onerror="this.onerror=null; this.src='${w1.image_remote}'">
+          <img class="dock-slot-img" src="${w1.image_local}" onerror="this.onerror=null; this.src='images/placeholder.svg';">
           <div class="dock-slot-info">
             <div class="dock-slot-name">${w1.name}</div>
             <div class="dock-slot-cat">${CQB_DATA.categories[w1.cat_sub]?.[currentLang] || ''}</div>
@@ -2216,7 +2216,7 @@
           <div class="modal-section-content">
             <div class="profile-layout">
               <div class="profile-img-card">
-                <img src="${w.image_local}" onerror="this.onerror=null; this.src='${w.image_remote}'" alt="${w.name}">
+                <img src="${w.image_local}" onerror="this.onerror=null; this.src='images/placeholder.svg';" alt="${w.name}">
               </div>
               <div class="profile-info-grid">
                 <div class="profile-data-box">
@@ -2602,7 +2602,7 @@
       if (freezeSlot) {
         freezeSlot.innerHTML = `
           <div class="vs-weapon-card">
-            <img class="vs-weapon-img" src="${wA.image_local}" onerror="this.onerror=null; this.src='${wA.image_remote}'">
+            <img class="vs-weapon-img" src="${wA.image_local}" onerror="this.onerror=null; this.src='images/placeholder.svg';">
             <div class="vs-weapon-meta" style="flex: 1;">
               <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
                 <h3>${wA.name}</h3>
@@ -2616,7 +2616,7 @@
           </div>
           <div class="vs-badge-center">VS</div>
           <div class="vs-weapon-card">
-            <img class="vs-weapon-img" src="${wB.image_local}" onerror="this.onerror=null; this.src='${wB.image_remote}'">
+            <img class="vs-weapon-img" src="${wB.image_local}" onerror="this.onerror=null; this.src='images/placeholder.svg';">
             <div class="vs-weapon-meta" style="flex: 1;">
               <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
                 <h3>${wB.name}</h3>

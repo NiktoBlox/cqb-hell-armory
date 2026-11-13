@@ -39718,7 +39718,7 @@ var CQB_DATA = {
       "filename": "_44 Magnum.html",
       "cat_main": "secondary",
       "cat_sub": "revolvers",
-      "image_local": "images/_44_Magnum.webp",
+      "image_local": "images/44_Magnum.webp",
       "image_remote": "https://static.wikia.nocookie.net/cqb-hell/images/6/62/44.magnum.webp/revision/latest/scale-to-width-down/239?cb=20260618171327",
       "stats": {
         "weapon_class": {
