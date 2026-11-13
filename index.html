@@ -127,7 +127,19 @@
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .header-visitor-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #15151e;
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     }
 
     /* Language Switcher */
@@ -552,6 +564,43 @@
       box-shadow: 0 0 12px var(--accent-glow);
     }
 
+    
+    /* FLOATING SCROLL NAVIGATION (TOP / BOTTOM) */
+    .scroll-nav-dock {
+      position: fixed;
+      right: 24px;
+      bottom: 28px;
+      z-index: 990;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .scroll-nav-btn {
+      width: 42px;
+      height: 42px;
+      background: rgba(18, 18, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+    }
+    .scroll-nav-btn:hover {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 0 16px var(--accent-glow);
+    }
+    .scroll-nav-btn:active {
+      transform: translateY(0) scale(0.95);
+    }
+
     /* FLOATING COMPARISON DOCK */
     .compare-dock {
       position: fixed;
@@ -783,6 +832,46 @@
       color: #fff;
     }
 
+    .modal-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: static;
+    }
+
+    .modal-header-compare-btn {
+      position: static;
+      background: #1a1a28;
+      border: 1px solid #363650;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .modal-header-compare-btn:hover {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: 0 0 10px rgba(255, 85, 0, 0.25);
+    }
+
+    .modal-header-compare-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #000;
+      font-weight: 700;
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+
     .modal-close-btn {
       background: #1e1e2c;
       border: 1px solid #333348;
@@ -796,6 +885,7 @@
       justify-content: center;
       font-size: 16px;
       transition: all 0.2s;
+      position: static;
     }
 
     .modal-close-btn:hover {
@@ -1547,6 +1637,11 @@
       </div>
     </a>
     <div class="header-actions">
+      <!-- Visitor Counter Badge (Top Header) -->
+      <div class="header-visitor-badge" title="Global Total Visits">
+        <span style="font-size: 12px;">🌐</span>
+        <img id="global-visitor-badge" class="visitor-badge-img" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=VISITS&countColor=%23ff5500&labelColor=%23151520&style=flat-square" alt="Global Visits">
+      </div>
       <!-- Author Credit -->
       <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer" class="author-badge" title="NiktoBlox Roblox Profile">
         <span style="font-size: 14px;">🎖️</span>
@@ -1617,19 +1712,6 @@
         <span id="ui-footer-author">Author: </span>
         <a href="https://www.roblox.com/users/78257680" target="_blank" rel="noopener noreferrer">NiktoBlox</a>
       </div>
-      <!-- Visitor & Traffic Stats -->
-      <div class="footer-stats-row">
-        <div class="footer-stat-badge">
-          <span style="font-size: 13px;">🌐</span>
-          <span id="ui-footer-global-visits">Global Total Visits: </span>
-          <img id="global-visitor-badge" class="visitor-badge-img" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fniktoblox.github.io%2Fcqb-hell-armory&label=VISITS&countColor=%23ff5500&labelColor=%23151520&style=flat-square" alt="Global Visits">
-        </div>
-        <div class="footer-stat-badge">
-          <span style="font-size: 13px;">👤</span>
-          <span id="ui-footer-user-visits">Your Visits: </span>
-          <span class="user-visit-pill"><span id="user-visit-count">1</span><span id="ui-footer-user-unit"> times</span></span>
-        </div>
-      </div>
     </div>
   </footer>
 
@@ -1666,11 +1748,11 @@
             <div id="modal-weapon-subcat" style="font-family: var(--font-mono); font-size: 11px; color: var(--accent);">BATTLE RIFLE</div>
           </div>
         </div>
-        <div style="display: flex; gap: 10px; align-items: center;">
-          <button class="card-compare-btn" id="modal-compare-btn" onclick="toggleCompareFromModal()">
-            ⚖️ <span id="modal-compare-text">Compare</span>
+        <div class="modal-header-actions">
+          <button class="modal-header-compare-btn" id="modal-compare-btn" onclick="toggleCompareFromModal()">
+            <span>⚖️</span> <span id="modal-compare-text">Compare</span>
           </button>
-          <button class="modal-close-btn" onclick="closeWeaponModal()">✕</button>
+          <button class="modal-close-btn" onclick="closeWeaponModal()" title="Close">✕</button>
         </div>
       </div>
       <div class="modal-body" id="modal-body-content">
@@ -1724,8 +1806,8 @@
         weaponsUnit: "WEAPONS",
         allCategory: "ALL ARSENAL",
         viewDossier: "📖 View Dossier",
-        compare: "⚖️ Compare",
-        compared: "✓ Selected",
+        compare: "Compare",
+        compared: "Selected",
         dockTitle: "⚖️ WEAPON COMPARISON (MAX 2)",
         slot1Empty: "[ Slot 1: Empty ]",
         slot2Empty: "[ Slot 2: Empty ]",
@@ -1790,8 +1872,8 @@
         weaponsUnit: "把武器",
         allCategory: "全部軍械",
         viewDossier: "📖 查看檔案",
-        compare: "⚖️ 對比",
-        compared: "✓ 已選取",
+        compare: "對比",
+        compared: "已選取",
         dockTitle: "⚖️ 武器對比系統 (僅限 2 把)",
         slot1Empty: "[ 槽位 1：點選武器加入 ]",
         slot2Empty: "[ 槽位 2：點選武器加入 ]",
@@ -1856,8 +1938,8 @@
         weaponsUnit: "把武器",
         allCategory: "全部军械",
         viewDossier: "📖 查看档案",
-        compare: "⚖️ 对比",
-        compared: "✓ 已选取",
+        compare: "对比",
+        compared: "已选取",
         dockTitle: "⚖️ 武器对比系统 (仅限 2 把)",
         slot1Empty: "[ 槽位 1：点选武器加入 ]",
         slot2Empty: "[ 槽位 2：点选武器加入 ]",
@@ -2511,9 +2593,10 @@
 
     function updateModalCompareBtn(id) {
       const btn = document.getElementById('modal-compare-btn');
+      if (!btn) return;
       const isSelected = selectedForCompare.includes(id);
       const t = I18N[currentLang];
-      btn.className = `card-compare-btn ${isSelected ? 'active' : ''}`;
+      btn.className = `modal-header-compare-btn ${isSelected ? 'active' : ''}`;
       document.getElementById('modal-compare-text').textContent = isSelected ? t.compared : t.compare;
     }
 
@@ -3031,5 +3114,20 @@
       setLanguage(initialLang);
     });
   </script>
+
+  <!-- Floating Scroll Navigation (Top & Bottom) -->
+  <div class="scroll-nav-dock">
+    <button class="scroll-nav-btn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" title="Scroll to Top / 移至頂部" aria-label="Scroll to Top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+    <button class="scroll-nav-btn" onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" title="Scroll to Bottom / 移至底部" aria-label="Scroll to Bottom">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 9l6 6 6-6"/>
+      </svg>
+    </button>
+  </div>
+
 </body>
 </html>
