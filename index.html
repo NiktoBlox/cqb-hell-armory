@@ -1867,6 +1867,11 @@
     // Set Language
     function setLanguage(lang) {
       currentLang = lang;
+      try {
+        localStorage.setItem('cqb_hell_lang', lang);
+      } catch (e) {
+        // localStorage not available or disabled
+      }
       document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang) || (lang === 'tc' && btn.textContent.includes('繁')) || (lang === 'sc' && btn.textContent.includes('简')));
       });
@@ -2920,7 +2925,18 @@
         renderWeaponsGrid();
       });
 
-      setLanguage('en'); // default to English as requested
+      // Restore user's preferred language from localStorage, default to 'en'
+      let initialLang = 'en';
+      try {
+        const savedLang = localStorage.getItem('cqb_hell_lang');
+        if (savedLang && (savedLang === 'en' || savedLang === 'tc' || savedLang === 'sc')) {
+          initialLang = savedLang;
+        }
+      } catch (e) {
+        // Fallback to default
+      }
+
+      setLanguage(initialLang);
     });
   </script>
 </body>
